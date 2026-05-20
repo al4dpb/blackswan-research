@@ -1,0 +1,116 @@
+{
+  "title": "5 Vagus Nerve Exercises With Real RCTs. The Other 47 Are Pseudoscience.",
+  "title_es": "5 ejercicios del nervio vago con RCTs reales. Los otros 47 son pseudociencia.",
+  "description": "TikTok says ear-pulling stimulates your vagus nerve. The peer-reviewed literature says: maybe, but only one specific maneuver, and the effect size is smaller than reported. We map every vagal-tone intervention with at least one RCT — humming, slow exhalation, cold-face dive reflex, transcutaneous auricular VNS — and rank them honestly.",
+  "description_es": "TikTok dice que tirarte de la oreja estimula el nervio vago. La literatura revisada por pares dice: tal vez, pero solo una maniobra específica, y el efecto es menor del reportado. Mapeamos cada intervención de tono vagal con al menos un ensayo clínico — tarareo, exhalación lenta, reflejo de inmersión facial, VNS auricular transcutáneo — y las clasificamos con honestidad.",
+  "pillar": "mental-work",
+  "slug": "vagus-nerve-exercises",
+  "canonical": "https://blackswanp.com/research/mental-work/vagus-nerve-exercises",
+  "published": "2026-04-17",
+  "modified": "2026-04-23",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "vagus nerve exercises",
+    "vagus nerve stimulation evidence",
+    "increase vagal tone scientifically",
+    "transcutaneous auricular vagus stimulation",
+    "heart rate variability training",
+    "polyvagal theory critique",
+    "diving reflex anxiety"
+  ],
+  "targetQuery": "vagus nerve exercises",
+  "monthlySearchVolumeEstimate": 200000,
+  "aiOverviewPotential": "very high",
+  "image": "/og/vagus-nerve-exercises.jpg",
+  "imageAlt": "Dark 1980s observation chamber, lone figure facing a vintage curved CRT portal showing a high-contrast multicolor anatomical rendering of the vagus nerve descending brain-to-gut, glowing electric blue and sanguine red, surrounded by a halo of multicolored HRV frequency waveforms — the parasympathetic master cable breaking through the dark matrix",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dark observation chamber dominates 70 percent of the frame in deep pitch-black with heavy film grain. On the right side: a large vintage curved CRT cathode-ray screen or glowing rectangular portal showing a HIGH-CONTRAST SATURATED MULTICOLOR scene — a brilliantly illuminated anatomical rendering of the human vagus nerve descending from the brainstem through the neck and chest into the gut, the nerve glowing electric blue with sanguine red branches, surrounded by a halo of multicolored HRV frequency waveforms radiating outward (deep blue low-frequency, electric violet high-frequency, emerald green RMSSD curves, electric red gamma-band). The screen/portal is the ONLY chromatic zone — vibrantly breaking out of the dark matrix with saturated electric blue + sanguine + multi-spectrum HRV halo. Small solitary back-turned silhouette of a figure in dark 1980s attire stands in the foreground observing the portal. Vintage analog control panel with faint scattered electric blue LED indicators in deep shadow foreground. Heavy cinematic 35mm film grain, anamorphic lens flare, VHS scanline overlay, kodak ektachrome retro slide aesthetic. Mood: Tron 1982 + Kubrick 2001 + Tarkovsky Stalker + Apple 1984. The dark room is the matrix; the multicolor neural-cable atlas inside the portal is the parasympathetic truth that ties everything together. No recognizable face. Mysterious retrofuturist forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 7409,
+  "imageAspectRatio": "3:2",
+  "howto": {
+    "@type": "HowTo",
+    "name": "Evidence-based vagus nerve activation protocol",
+    "description": "Three vagal-tone interventions with peer-reviewed RCT support",
+    "step": [
+      {
+        "@type": "HowToStep",
+        "name": "Slow exhalation",
+        "text": "4-count inhale, 8-count exhale, 6 breaths/min for 4 minutes",
+        "totalTime": "PT4M"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "Cold face immersion",
+        "text": "15°C or colder water on face/forehead for 20–30 seconds (bowl, splash, or ice pack)",
+        "totalTime": "PT30S"
+      },
+      {
+        "@type": "HowToStep",
+        "name": "HRV biofeedback",
+        "text": "5–20 min daily, 4–8 weeks, sensor + app, breathe at resonance frequency (~6 bpm)",
+        "totalTime": "PT20M"
+      }
+    ],
+    "yield": "Increased RMSSD, HF-HRV, parasympathetic activation. Anxiety reduction Hedges' g = 0.83 with HRV biofeedback."
+  },
+  "medicalEntities": [
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Vagus nerve",
+      "alternateName": "Cranial nerve X",
+      "partOfSystem": "Autonomic nervous system",
+      "associatedPathophysiology": "Reduced HRV correlates with anxiety, depression, cardiovascular risk"
+    },
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Cymba conchae",
+      "description": "Small hollow in the upper bowl of the outer ear; exclusively innervated by the auricular branch of the vagus nerve (Frangos 2015)"
+    },
+    {
+      "@type": "MedicalTheory",
+      "name": "Polyvagal theory",
+      "author": "Stephen Porges",
+      "datePublished": "1995",
+      "partOfSystem": "Autonomic nervous system neuroscience",
+      "description": "Three-tier autonomic hierarchy: dorsal vagal (freeze), sympathetic (fight-or-flight), ventral vagal (social engagement). Clinical utility established; evolutionary neuroanatomy contested (Grossman & Taylor 2007)."
+    }
+  ],
+  "medicalDevices": [
+    {
+      "@type": "MedicalDevice",
+      "name": "Transcutaneous auricular vagus nerve stimulation (taVNS)",
+      "alternateName": "taVNS",
+      "indication": "Depression, anxiety adjunct",
+      "operatingProtocol": "25 Hz, 200–300 µs pulse width, 2–4 hours daily at cymba conchae",
+      "studyEvidence": "Liu et al. 2023 meta-analysis: 12 RCTs, 838 participants, significant Hamilton Depression Scale improvement"
+    }
+  ],
+  "researchSources": [
+    "Yuen & Sander 2017 — vagus nerve stimulation review",
+    "Laborde et al. 2022 — HRV biofeedback meta-analysis",
+    "Gerritsen & Band 2018 — slow breathing review",
+    "Porges polyvagal theory — and Grossman/Taylor 2007 critique",
+    "Frangos et al. — taVNS fMRI brainstem activation"
+  ],
+  "syndications": [],
+  "audio": "/audio/vagus-nerve-exercises.mp3",
+  "audioDuration": 810,
+  "audioGeneratedAt": "2026-04-25T18:59:00.073Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audioEs": "/audio/vagus-nerve-exercises.es.mp3",
+  "audioEsDuration": 810,
+  "audioEsGeneratedAt": "2026-04-25T19:02:39.966Z",
+  "wordCount": 3792,
+  "citationsCount": 12,
+  "primarySources": 10,
+  "foiaCount": 0,
+  "evidenceDensity": 0.3,
+  "seoTitle": "Vagus Nerve Exercises: 5 With Real RCTs, 47 That Are Pseudoscience",
+  "seoTitle_es": "Ejercicios del nervio vago: 5 con RCTs reales, 47 que son pseudociencia",
+  "seoDescription": "Of 52 popular vagus nerve exercises, only 5 have real RCT evidence. The 5 that work (dose + timing), the 47 that don't, and the HRV markers to track.",
+  "seoDescription_es": "De 52 ejercicios populares del nervio vago, solo 5 tienen evidencia RCT real. Los 5 que funcionan (dosis + momento), los 47 que no, y los marcadores HRV para rastrear.",
+  "bluf": "Five vagal-tone interventions have peer-reviewed RCT support: slow paced breathing (~6 breaths/min), humming/'voo' chanting, the cold-face dive reflex, transcutaneous auricular VNS (tVNS), and gargling-for-vagal-activation. Effect sizes are modest (d≈0.2-0.4). The 47 TikTok-popularized 'vagus exercises' — ear pulls, neck stretches, eye movements, 'tapping' — have no RCT support or actively contradictory evidence. The signal is real, narrow, and over-marketed.",
+  "bluf_es": "Cinco intervenciones del tono vagal tienen respaldo de RCTs revisados por pares: respiración lenta pausada (~6 respiraciones/min), tarareo / canto 'voo', el reflejo de inmersión facial fría, VNS auricular transcutánea (tVNS), y gárgaras para activación vagal. Los tamaños de efecto son modestos (d≈0.2-0.4). Los 47 'ejercicios del vago' popularizados en TikTok — tirones de oreja, estiramientos de cuello, movimientos oculares, 'tapping' — no tienen respaldo de RCTs o tienen evidencia activamente contradictoria. La señal es real, estrecha, y sobre-comercializada."
+}

@@ -1,0 +1,70 @@
+{
+  "title": "How to Stop Overthinking: 9 Cognitive Science Methods That Actually Work",
+  "title_es": "Cómo dejar de pensar demasiado: 9 métodos de ciencia cognitiva que sí funcionan",
+  "description": "'Just don't think about it' is bad advice with neuroscience receipts: thought suppression makes intrusion worse (Wegner 1987). What does work is mapped across 9 evidence-backed interventions — defusion, scheduled worry time, behavioral experiments, exposure-based ACT — each tested in RCTs against rumination and generalized anxiety.",
+  "description_es": "'Simplemente no pienses en eso' es mal consejo con recibos neurocientíficos: suprimir pensamientos empeora la intrusión (Wegner 1987). Lo que sí funciona está mapeado en 9 intervenciones con evidencia — defusión, tiempo programado de preocupación, experimentos conductuales, ACT basada en exposición — cada una probada en ensayos clínicos contra rumiación y ansiedad generalizada.",
+  "pillar": "mental-work",
+  "slug": "how-to-stop-overthinking",
+  "canonical": "https://blackswanp.com/research/mental-work/how-to-stop-overthinking",
+  "published": "2026-04-25",
+  "modified": "2026-05-05",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "how to stop overthinking",
+    "stop ruminating evidence",
+    "cognitive defusion ACT",
+    "thought suppression rebound",
+    "scheduled worry time CBT",
+    "rumination treatment RCT",
+    "metacognitive therapy overthinking"
+  ],
+  "targetQuery": "how to stop overthinking",
+  "monthlySearchVolumeEstimate": 1000000,
+  "aiOverviewPotential": "very high",
+  "image": "/og/how-to-stop-overthinking.png",
+  "imageAlt": "Vintage 1980s laboratory chalkboard showing a recursive thought-loop diagram with nine numbered intervention points marked along the cycle",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dim cognitive psychology research laboratory dominates 70 percent of the frame in deep cobalt-black with heavy 35mm grain. Center frame: a tall freestanding chalkboard mounted on wheels, its surface filled with a hand-drawn recursive thought-loop diagram — concentric circling arrows forming a closed rumination cycle, with nine small numbered chalk markers placed along the loop showing intervention points (1 through 9) in saturated electric blue chalk. The recursive loop is rendered in thin white chalk-stroke lines forming an obsessive Spirograph-like geometric pattern. To the side: a vintage oscilloscope on a wooden cart displays a single white EEG-style sine wave that is flatlining and then spiking — visible as the only motion in the still image. A solitary back-turned silhouette of a 1980s figure in dark clinician attire stands in mid-foreground observing the chalkboard, holding a clipboard. The chalkboard diagram + electric blue intervention markers + the oscilloscope's pale glow are the ONLY chromatic zones — vibrantly breaking out of the cobalt-and-black laboratory matrix. Faint colored EEG output paper strips trail from the oscilloscope into shadow. Heavy cinematic 35mm film grain, anamorphic lens flare, kodak ektachrome retro slide aesthetic, faint VHS scanline overlay. Mood: Tarkovsky Stalker + early Cronenberg lab scenes + Soderbergh Solaris 2002 + Daniel Wegner's 1987 social-psychology lab at Trinity. The dark room is the matrix; the recursive thought-loop diagram on the chalkboard is what actually moves the needle. No recognizable face. Mysterious cognitive-science forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 9871,
+  "imageAspectRatio": "3:2",
+  "researchSources": [
+    "Wegner 1987 — paradoxical effects of thought suppression",
+    "Hayes et al. — Acceptance and Commitment Therapy meta-analyses",
+    "Wells & Matthews — metacognitive therapy",
+    "Watkins 2015 — rumination-focused CBT trials",
+    "Ehring & Watkins 2008 — rumination as transdiagnostic process",
+    "Hofmann et al. 2012 — CBT meta-analysis"
+  ],
+  "syndications": [
+    {
+      "publication": "Substack · VENUS (EN)",
+      "url": "https://a3dpb.substack.com/p/how-to-stop-overthinking-9-cognitive",
+      "date": "2026-05-08"
+    },
+    {
+      "publication": "Substack · VENUS (ES)",
+      "url": "https://a3dpb.substack.com/p/como-dejar-de-pensar-demasiado-9",
+      "date": "2026-05-08"
+    }
+  ],
+  "wordCount": 2334,
+  "citationsCount": 12,
+  "primarySources": 12,
+  "foiaCount": 0,
+  "evidenceDensity": 0.51,
+  "seoTitle": "How to Stop Overthinking: 9 RCT-Backed Methods (2026 Evidence Guide)",
+  "seoTitle_es": "Cómo dejar de pensar demasiado: 9 métodos con evidencia RCT (guía 2026)",
+  "seoDescription": "Thought suppression makes intrusive thoughts worse (Wegner 1987, Abramowitz 2001 meta). 9 cognitive-science methods with peer-reviewed RCT evidence — defusion, scheduled worry, MCT, MBCT — what works.",
+  "seoDescription_es": "Suprimir pensamientos los empeora (Wegner 1987, Abramowitz 2001). 9 métodos con evidencia RCT revisada — defusión, tiempo programado de preocupación, MCT, MBCT — qué funciona.",
+  "audio": "/audio/how-to-stop-overthinking.mp3",
+  "audioDuration": 800,
+  "audioGeneratedAt": "2026-05-06T00:30:50.045Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audioEs": "/audio/how-to-stop-overthinking.es.mp3",
+  "audioEsDuration": 820,
+  "audioEsGeneratedAt": "2026-05-06T11:35:07.862Z",
+  "bluf": "'Just don't think about it' is bad advice with neuroscience receipts: Wegner's 1987 white-bear study and 30+ replications show thought suppression makes intrusion worse. What does work, with RCT support: cognitive defusion (ACT), scheduled worry time, behavioral experiments, mindfulness-of-thoughts (not -of-breath), implementation intentions, problem-solving training, decentering, metacognitive therapy, and exposure-based interventions. Nine methods, each tested against rumination.",
+  "bluf_es": "'Solo no lo pienses' es mal consejo con respaldo neurocientífico: el estudio del oso blanco de Wegner (1987) y más de 30 réplicas muestran que la supresión de pensamientos empeora las intrusiones. Lo que sí funciona, con respaldo de RCTs: defusión cognitiva (ACT), tiempo de preocupación programada, experimentos conductuales, mindfulness-de-pensamientos (no -de-respiración), intenciones de implementación, entrenamiento en resolución de problemas, descentramiento, terapia metacognitiva, e intervenciones basadas en exposición. Nueve métodos, cada uno probado contra la rumiación."
+}

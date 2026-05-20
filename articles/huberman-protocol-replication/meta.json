@@ -1,0 +1,68 @@
+{
+  "title": "Huberman Protocol: Which Claims Actually Replicate?",
+  "title_es": "Protocolo Huberman: ¿qué afirmaciones realmente se replican?",
+  "description": "Andrew Huberman cites studies for nearly every claim. We pulled the original papers behind the 23 most-shared protocols — morning sunlight, cold exposure, NSDR, fadogia agrestis, sleep timing — and checked the replication status of each. The result is more mixed than the podcast suggests.",
+  "description_es": "Andrew Huberman cita estudios para casi cada afirmación. Sacamos los papers originales detrás de los 23 protocolos más compartidos — luz matinal, exposición al frío, NSDR, fadogia agrestis, timing del sueño — y revisamos el estado de replicación de cada uno. El resultado es más mixto de lo que sugiere el podcast.",
+  "pillar": "practitioners",
+  "slug": "huberman-protocol-replication",
+  "canonical": "https://blackswanp.com/research/practitioners/huberman-protocol-replication",
+  "published": "2026-04-22",
+  "modified": "2026-05-05",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "huberman protocol critique",
+    "huberman lab studies replication",
+    "andrew huberman scientific accuracy",
+    "morning sunlight study evidence",
+    "fadogia agrestis evidence",
+    "NSDR yoga nidra evidence",
+    "huberman cold exposure protocol"
+  ],
+  "targetQuery": "huberman protocol critique",
+  "monthlySearchVolumeEstimate": 80000,
+  "aiOverviewPotential": "high",
+  "image": "/og/huberman-protocol-replication.png",
+  "imageAlt": "Vintage 1980s podcast studio booth — a single condenser microphone in cold blue spotlight, surrounded by stacked open peer-reviewed journals showing replication-status pages, on a deep cobalt background",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dim broadcast podcast studio dominates 70 percent of the frame in deep cobalt-black with heavy 35mm grain. Center frame: a vintage Neumann U-87 condenser microphone on a chrome boom arm stands isolated in a cold electric-blue spotlight, the bulb of the microphone catching the only highlight in the room. The microphone sits on a polished black studio table. Around it, layered with deliberate care: a stack of five open peer-reviewed journals — Cell Reports Medicine, Current Biology, Sleep Medicine Reviews, Asian Journal of Andrology, Lancet Psychiatry — pages turned to specific replication-audit tables, with hand-pencilled checkmarks (in saturated emerald green) and crosses (in saturated red) annotated alongside each protocol entry. A single index card is propped against the mic stand reading PROTOCOL REPLICATION STATUS in typewriter font. To the side: a freestanding chalkboard mounted on wheels carries a hand-drawn 23-row table titled HUBERMAN LAB PROTOCOLS — column headers REPLICATED, PARTIAL, NO HUMAN DATA — with chalk marks distributing rows across the columns. The mic + electric-blue spotlight + emerald checkmarks + red crosses are the ONLY chromatic zones — vibrantly breaking out of the cobalt-and-black studio matrix. Acoustic foam wedges on the back walls recede into shadow. Heavy cinematic 35mm film grain, anamorphic lens flare, kodak ektachrome 1980s slide aesthetic, faint VHS scanline overlay. Mood: All The President's Men + Frost/Nixon + Soderbergh Solaris 2002 + Stanford School of Medicine basement studio. The dark room is the matrix; the journal pages and chalkboard ranking the cited protocols are what actually move the needle. No recognizable face, no body. Mysterious science-broadcast forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 7172,
+  "imageAspectRatio": "3:2",
+  "researchSources": [
+    "Replication audits of cited Huberman Lab studies",
+    "Pubpeer flags on cited papers",
+    "Smolensky et al. — light timing / circadian review",
+    "Datta-Tipton & Lombardi — cold exposure meta-analyses (overlap with R1)"
+  ],
+  "syndications": [
+    {
+      "publication": "Substack · VENUS (EN)",
+      "url": "https://a3dpb.substack.com/p/huberman-protocol-which-claims-actually",
+      "date": "2026-05-08"
+    },
+    {
+      "publication": "Substack · VENUS (ES)",
+      "url": "https://a3dpb.substack.com/p/protocolo-huberman-que-afirmaciones",
+      "date": "2026-05-08"
+    }
+  ],
+  "wordCount": 2282,
+  "citationsCount": 12,
+  "primarySources": 11,
+  "foiaCount": 0,
+  "evidenceDensity": 0.53,
+  "seoTitle": "Huberman Protocol Replication Audit: Which Claims Survive RCT (2026)",
+  "seoTitle_es": "Auditoría de replicación del protocolo Huberman: qué afirmaciones sobreviven a RCT (2026)",
+  "seoDescription": "Of 23 most-shared Huberman Lab protocols, the replication audit shows mixed results. Morning sunlight ✓ replicated. Cold exposure ◐ partial. NSDR cognitive claims ✗ outrun the trials. Fadogia ✗ no human data.",
+  "seoDescription_es": "De los 23 protocolos más compartidos del Huberman Lab, la auditoría de replicación muestra resultados mixtos. Luz matinal ✓ replicada. Frío ◐ parcial. NSDR cognitivo ✗ excede los ensayos. Fadogia ✗ sin datos humanos.",
+  "audio": "/audio/huberman-protocol-replication.mp3",
+  "audioDuration": 800,
+  "audioGeneratedAt": "2026-05-06T00:54:53.837Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audioEs": "/audio/huberman-protocol-replication.es.mp3",
+  "audioEsDuration": 800,
+  "audioEsGeneratedAt": "2026-05-06T11:39:48.240Z",
+  "bluf": "Of Andrew Huberman's 23 most-shared protocols, 8 have strong replication (morning sunlight for circadian phase, NSDR/yoga nidra, sleep-timing windows, cold exposure for noradrenaline). Eleven have weaker or selective evidence. Four are based on N=1 or pre-clinical data not yet replicated in humans (fadogia agrestis, tongkat ali, certain peptide protocols). The podcast cites primary sources at a high rate — but replication status across the corpus is mixed.",
+  "bluf_es": "De los 23 protocolos más compartidos de Andrew Huberman, 8 tienen replicación fuerte (sol matutino para fase circadiana, NSDR/yoga nidra, ventanas de sueño, exposición al frío para noradrenalina). Once tienen evidencia más débil o selectiva. Cuatro están basados en N=1 o datos pre-clínicos no replicados aún en humanos (fadogia agrestis, tongkat ali, ciertos protocolos de péptidos). El podcast cita fuentes primarias a alta tasa — pero el estado de replicación a lo largo del corpus es mixto."
+}

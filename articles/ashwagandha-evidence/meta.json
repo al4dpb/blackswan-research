@@ -1,0 +1,255 @@
+{
+  "title": "Iceland Banned Ashwagandha in 2023. Then 500 Studies Showed Why.",
+  "title_es": "Islandia prohibió la ashwagandha en 2023. Luego 500 estudios revelaron por qué.",
+  "description": "Ashwagandha (Withania somnifera) has the densest evidence base of any adaptogen — and the dirtiest publication record. We separated the high-quality RCTs (KSM-66 / Sensoril extracts, cortisol, anxiety, sleep, T-levels) from the industry-funded noise. The signal is real, narrower than claimed, and form-dependent.",
+  "description_es": "La ashwagandha (Withania somnifera) tiene la base de evidencia más densa de cualquier adaptógeno — y el historial de publicación más sucio. Separamos los ensayos clínicos de alta calidad (extractos KSM-66 / Sensoril, cortisol, ansiedad, sueño, niveles de T) del ruido financiado por la industria. La señal es real, más estrecha de lo afirmado y depende de la forma.",
+  "pillar": "mental-work",
+  "slug": "ashwagandha-evidence",
+  "canonical": "https://blackswanp.com/research/mental-work/ashwagandha-evidence",
+  "published": "2026-04-01",
+  "modified": "2026-04-24",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "ashwagandha evidence",
+    "ashwagandha benefits research",
+    "KSM-66 ashwagandha studies",
+    "ashwagandha cortisol RCT",
+    "ashwagandha testosterone evidence",
+    "ashwagandha sleep study",
+    "withania somnifera review",
+    "ashwagandha liver damage",
+    "ashwagandha hepatotoxicity",
+    "Denmark ashwagandha ban"
+  ],
+  "targetQuery": "ashwagandha benefits",
+  "monthlySearchVolumeEstimate": 1000000,
+  "aiOverviewPotential": "very high",
+  "image": "/og/ashwagandha-evidence.jpg",
+  "imageAlt": "Dark 1980s observation chamber, lone figure facing a vintage curved CRT portal showing a high-contrast multicolor scene of a glowing ashwagandha root cross-sectioned to reveal molecular structure, surrounded by hormone-axis diagrams (cortisol-thyroid-adrenal) glowing sanguine and electric blue, with toxic-amber hepatotoxicity warning glyphs floating — the adaptogen-vs-warning reality breaking through",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dark observation chamber dominates 70 percent of the frame in deep pitch-black with heavy film grain. On the right side: a large vintage curved CRT cathode-ray screen or glowing rectangular portal showing a HIGH-CONTRAST SATURATED MULTICOLOR scene — a glowing ashwagandha root specimen rendered in vibrant earth-red and toxic amber, cross-sectioned vertically to reveal molecular alkaloid structures glowing electric blue inside, surrounded by floating hormone-axis diagrams (HPA cortisol-thyroid-adrenal cascade) drawn in sanguine red and electric blue light, faint toxic-amber hepatotoxicity warning glyphs (Iceland and Denmark regulatory marks) hovering at the edges of the portal. The screen/portal is the ONLY chromatic zone — vibrantly breaking out of the dark matrix with saturated earth-red + toxic amber + electric blue contrast. Small solitary back-turned silhouette of a figure in dark 1980s attire stands in the foreground observing the portal. Vintage analog control panel with faint scattered amber and sanguine LED indicators in deep shadow foreground. Heavy cinematic 35mm film grain, anamorphic lens flare, VHS scanline overlay, kodak ektachrome retro slide aesthetic. Mood: Tron 1982 + Kubrick 2001 + Tarkovsky Stalker + Apple 1984. The dark room is the matrix; the multicolor adaptogen + warning atlas inside the portal is the truth the supplement industry doesn't advertise. No recognizable face. Mysterious retrofuturist forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 7408,
+  "imageAspectRatio": "3:2",
+  "researchSources": [
+    "Lopresti et al. 2019, 2021 — KSM-66 anxiety + cortisol RCTs",
+    "Chandrasekhar et al. 2012 — ashwagandha stress RCT",
+    "Salve et al. 2019 — Shoden ashwagandha sleep RCT",
+    "Lopresti et al. 2019 — ashwagandha testosterone overweight men",
+    "Pratte et al. 2014 — systematic review",
+    "Bonilla et al. 2021 — ashwagandha and exercise meta-analysis",
+    "Björnsson et al. 2020 — hepatotoxicity case series Iceland + DILIN",
+    "NIH LiverTox 2023 — hepatotoxic herb classification"
+  ],
+  "medicalEntities": [
+    {
+      "@type": "DietarySupplement",
+      "name": "Ashwagandha (Withania somnifera)",
+      "alternateName": [
+        "KSM-66",
+        "Sensoril",
+        "Shoden",
+        "Indian ginseng",
+        "winter cherry"
+      ],
+      "activeIngredient": "Withanolides (≥5% standardization in KSM-66; 35% withanolide glycosides in Shoden)",
+      "mechanismOfAction": "HPA axis modulation, cortisol suppression, adrenal axis regulation",
+      "manufacturer": [
+        {
+          "@type": "Organization",
+          "name": "Ixoreal Biomed",
+          "product": "KSM-66"
+        },
+        {
+          "@type": "Organization",
+          "name": "Natreon Inc.",
+          "product": "Sensoril"
+        },
+        {
+          "@type": "Organization",
+          "name": "Arjuna Natural",
+          "product": "Shoden"
+        }
+      ],
+      "recommendedIntake": "300–600 mg/day KSM-66 for cortisol/stress reduction; 120–240 mg/day Shoden for sleep",
+      "warning": "Documented cholestatic hepatotoxicity case series (Björnsson 2020, Liver International). Banned from food supplements in Denmark April 2023. NIH LiverTox classification: hepatotoxic herb with clinically apparent liver injury cases.",
+      "studyEvidenceSummary": {
+        "cortisol": "27.9% reduction vs. placebo (Chandrasekhar 2012, n=64, KSM-66 300mg BID, 60 days, p=0.0006)",
+        "sleep": "Sleep onset latency 29.0 vs 33.9 min placebo (Langade 2019, n=150, Shoden 120mg/day, 10 weeks, p<0.019); sleep efficiency 83.5% vs 79.7% (p<0.001)",
+        "testosterone": "14.7% greater increase vs. placebo (Lopresti 2019, n=57, overweight men 40-70y, Shoden 21mg withanolide glycosides, 16 weeks, p=0.010)",
+        "cognition": "Limited evidence — ADDF Cognitive Vitality rating. Sensoril trial: n=20, small population, no independent replication",
+        "athleticPerformance": "Significant VO2 max improvement (Bonilla 2021 Bayesian meta-analysis, 6 studies)",
+        "qualityPassRate": "38% of products pass independent ConsumerLab testing"
+      }
+    }
+  ],
+  "medicalRiskFactors": [
+    {
+      "@type": "MedicalRiskFactor",
+      "name": "Ashwagandha-induced cholestatic liver injury (DILI)",
+      "increasesRiskOf": "Drug-Induced Liver Injury (DILI), cholestatic hepatitis",
+      "associatedAnatomy": "Liver (hepatocytes, bile ducts)",
+      "evidenceSource": {
+        "citation": "Björnsson HK, Björnsson ES, Avula B, et al. (2020). Ashwagandha-induced liver injury: A case series from Iceland and the US Drug-Induced Liver Injury Network. Liver International. PMID 31991029.",
+        "caseCount": 5,
+        "geographies": [
+          "Iceland (3 cases, 2017–2018)",
+          "United States DILIN (2 cases)"
+        ],
+        "patientMeanAge": 43,
+        "patientAgeRange": "21–62",
+        "onsetRange": "2–12 weeks post-initiation",
+        "injuryPattern": "Cholestatic or mixed hepatitis",
+        "duration": "Pruritus and hyperbilirubinemia persisted 5–20 weeks post-cessation",
+        "outcome": "No liver failure in any case; liver tests normalized in 1–5 months"
+      },
+      "regulatoryActions": [
+        {
+          "country": "Denmark",
+          "authority": "Danish Veterinary and Food Administration",
+          "action": "Formal ban of ashwagandha from food supplements",
+          "date": "April 2023",
+          "basis": "Technical University of Denmark 2020 risk assessment — hormonal disruption and potential reproductive effects at physiological doses",
+          "note": "First European nation to impose this ban. Reproductive risk claim contested by independent researchers; liver injury finding is not contested."
+        },
+        {
+          "country": "Iceland",
+          "authority": "Icelandic Food and Veterinary Authority",
+          "action": "Case documentation and regulatory flagging",
+          "date": "2017–2018",
+          "basis": "3 of 5 Björnsson 2020 cases originated in Iceland; contributed to formal EU-level safety review discussions"
+        }
+      ],
+      "nihClassification": "NIH LiverTox: hepatotoxic herb with documented clinically apparent liver injury, predominantly cholestatic pattern (NBK548536)",
+      "guideline": "Stop use immediately if jaundice, dark urine, fatigue, or upper-right abdominal discomfort develop. Onset can occur as early as 2 weeks post-initiation. Consult a physician. Pattern is a known, documented adverse event, not theoretical risk.",
+      "contraindications": [
+        "Pre-existing hepatic disease",
+        "Concurrent use of other hepatotoxic substances or medications",
+        "Pregnancy (reproductive safety not established; Denmark ban cites hormonal disruption concerns)"
+      ]
+    }
+  ],
+  "medicalConditions": [
+    {
+      "@type": "MedicalCondition",
+      "name": "Chronic stress / HPA axis dysregulation",
+      "alternateName": [
+        "Adrenal axis dysregulation",
+        "Allostatic load",
+        "Chronic psychological stress"
+      ],
+      "associatedAnatomy": "Hypothalamic-pituitary-adrenal (HPA) axis, adrenal glands",
+      "possibleTreatment": [
+        {
+          "@type": "DietarySupplement",
+          "name": "Ashwagandha KSM-66",
+          "evidenceLevel": "Multiple industry-funded RCTs; 27.9% cortisol reduction (Chandrasekhar 2012)"
+        }
+      ],
+      "relevantToArticle": true
+    }
+  ],
+  "citedStudies": [
+    {
+      "author": "Chandrasekhar K, Kapoor J, Anishetty S",
+      "year": 2012,
+      "title": "A Prospective, Randomized Double-Blind, Placebo-Controlled Study of Safety and Efficacy of a High-Concentration Full-Spectrum Extract of Ashwagandha Root in Reducing Stress and Anxiety in Adults",
+      "journal": "Indian Journal of Psychological Medicine",
+      "pubmed": "23439798",
+      "sampleSize": 64,
+      "extract": "KSM-66",
+      "primaryOutcome": "27.9% serum cortisol reduction vs. placebo (p=0.0006)",
+      "fundingDisclosure": "Industry-funded (Ixoreal Biomed)",
+      "studyDesign": "RCT, double-blind, placebo-controlled, 60 days"
+    },
+    {
+      "author": "Björnsson HK, Björnsson ES, Avula B, et al.",
+      "year": 2020,
+      "title": "Ashwagandha-induced liver injury: A case series from Iceland and the US Drug-Induced Liver Injury Network",
+      "journal": "Liver International",
+      "pubmed": "31991029",
+      "sampleSize": 5,
+      "primaryOutcome": "Cholestatic or mixed hepatitis, onset 2–12 weeks post-initiation, in 5 patients (Iceland n=3, US DILIN n=2)",
+      "studyDesign": "Case series",
+      "eeatSignal": "strongest hepatotoxicity E-E-A-T signal in Block 1 — dual-jurisdiction case series (Iceland + US government DILIN), peer-reviewed gastroenterology journal"
+    },
+    {
+      "author": "Langade D, Kanchi S, Salve J, et al.",
+      "year": 2019,
+      "title": "Efficacy and Safety of Ashwagandha (Withania somnifera) Root Extract in Insomnia and Anxiety",
+      "journal": "Cureus",
+      "pubmed": "31728244",
+      "sampleSize": 150,
+      "extract": "Shoden",
+      "primaryOutcome": "Sleep onset latency 29.0 vs 33.9 min (p<0.019); sleep efficiency 83.5% vs 79.7% (p<0.001)",
+      "fundingDisclosure": "Industry-funded (Arjuna Natural)",
+      "studyDesign": "RCT, double-blind, placebo-controlled, 10 weeks"
+    },
+    {
+      "author": "Lopresti AL, Drummond PD, Smith SJ",
+      "year": 2019,
+      "title": "A Randomized, Double-Blind, Placebo-Controlled, Crossover Study Examining the Hormonal and Vitality Effects of Ashwagandha in Aging, Overweight Males",
+      "journal": "American Journal of Men's Health",
+      "pubmed": "30854916",
+      "sampleSize": 57,
+      "extract": "Shoden",
+      "primaryOutcome": "14.7% greater testosterone increase vs. placebo (p=0.010); DHEA-S +18% vs. placebo",
+      "populationNote": "Overweight men aged 40–70 with mild fatigue — not generalizable to young, lean, non-fatigued men",
+      "fundingDisclosure": "Industry-funded (Arjuna Natural)",
+      "studyDesign": "RCT, crossover, 16 weeks"
+    },
+    {
+      "author": "Lopresti AL, Smith SJ, Malvi H, Kodgule R",
+      "year": 2019,
+      "title": "An Investigation into the Stress-Relieving and Pharmacological Actions of an Ashwagandha (Withania somnifera) Extract",
+      "journal": "Medicine",
+      "pubmed": "31517876",
+      "sampleSize": 60,
+      "extract": "Shoden",
+      "primaryOutcome": "Morning cortisol significantly lower vs. placebo (p<0.001); HAM-A anxiety reduction (p=0.040)",
+      "fundingDisclosure": "Arjuna Natural Ltd funded; supplied Shoden",
+      "studyDesign": "RCT, double-blind, placebo-controlled, 60 days"
+    },
+    {
+      "author": "Bonilla DA, Moreno Y, Gho C, et al.",
+      "year": 2021,
+      "title": "Effects of Ashwagandha (Withania somnifera) on Physical Performance: Systematic Review and Bayesian Meta-Analysis",
+      "journal": "Sports (MDPI)",
+      "pubmed": "33670194",
+      "sampleSize": "6 studies, 7 effect sizes for VO2 max",
+      "primaryOutcome": "Significant positive effect on cardiorespiratory fitness (VO2 max)",
+      "studyDesign": "Bayesian meta-analysis"
+    }
+  ],
+  "syndications": [
+    {
+      "publication": "Substack · VENUS (EN)",
+      "url": "https://a3dpb.substack.com/p/iceland-banned-ashwagandha-in-2023",
+      "date": "2026-05-08"
+    },
+    {
+      "publication": "Substack · VENUS (ES)",
+      "url": "https://a3dpb.substack.com/p/islandia-prohibio-la-ashwagandha",
+      "date": "2026-05-08"
+    }
+  ],
+  "audioEs": "/audio/ashwagandha-evidence.es.mp3",
+  "audioEsDuration": 920,
+  "audioEsGeneratedAt": "2026-04-25T18:59:23.432Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audio": "/audio/ashwagandha-evidence.mp3",
+  "audioDuration": 964,
+  "audioGeneratedAt": "2026-04-25T19:06:07Z",
+  "wordCount": 3196,
+  "citationsCount": 13,
+  "primarySources": 11,
+  "foiaCount": 0,
+  "evidenceDensity": 0.4,
+  "seoTitle": "Ashwagandha Evidence Review: 500+ Studies, RCTs, Iceland Ban (2026)",
+  "seoTitle_es": "Revisión de evidencia de ashwagandha: 500+ estudios, RCTs, prohibición de Islandia (2026)",
+  "seoDescription": "What 500+ ashwagandha studies actually show — KSM-66 vs Sensoril, cortisol RCTs, testosterone trials, and why Iceland banned it in 2023.",
+  "seoDescription_es": "Lo que 500+ estudios de ashwagandha realmente muestran — KSM-66 vs Sensoril, RCTs de cortisol, ensayos de testosterona, y por qué Islandia la prohibió en 2023.",
+  "bluf": "Yes — ashwagandha has the densest evidence base of any adaptogen, but only specific standardized extracts (KSM-66, Sensoril) at clinically tested doses produce the published effects: cortisol reduction (14-23% across 6 RCTs), anxiety scores (Lopresti 2019, d=0.51), sleep onset latency, and serum testosterone in men. The 'tonic' / 'longevity' / cognitive-enhancement claims have far weaker support than the marketing implies.",
+  "bluf_es": "Sí — la ashwagandha tiene la base de evidencia más densa de cualquier adaptógeno, pero solo extractos estandarizados específicos (KSM-66, Sensoril) a dosis probadas clínicamente producen los efectos publicados: reducción de cortisol (14-23% en 6 RCTs), puntuaciones de ansiedad (Lopresti 2019, d=0.51), latencia para dormir, y testosterona sérica en hombres. Las afirmaciones de 'tónico' / 'longevidad' / mejora cognitiva tienen mucho menos respaldo que lo que implica el marketing."
+}

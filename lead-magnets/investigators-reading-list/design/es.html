@@ -1,0 +1,623 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>La lista del investigador · Black Swan Project</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=VT323&display=swap" rel="stylesheet">
+<style>
+@page { size: Letter; margin: 0; }
+:root {
+  --void: #0A0812;
+  --bone: #F4EBD9;
+  --bone-dim: #BBB1A0;
+  --ghost: #6B6359;
+  --hairline: #2A2620;
+  --spec-amber: #FFB000;
+  --spec-lime: #B8FF3A;
+  --paper: #11101A;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body {
+  font-family: 'Fraunces', 'Cormorant Garamond', 'Times New Roman', serif;
+  font-feature-settings: 'kern', 'liga', 'onum';
+  color: var(--bone);
+  background: var(--void);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+.page {
+  width: 8.5in; height: 11in;
+  position: relative; overflow: hidden;
+  page-break-after: always; page-break-inside: avoid;
+  background: var(--paper);
+}
+.page:last-of-type { page-break-after: auto; }
+.mono {
+  font-family: 'VT323', 'IBM Plex Mono', 'Courier New', monospace;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+}
+.eyebrow {
+  font-family: 'VT323', monospace;
+  font-size: 11pt;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--ghost);
+}
+.eyebrow.amber { color: var(--spec-amber); }
+.rule { height: 1px; background: var(--hairline); border: 0; }
+.rule-amber { height: 1px; background: var(--spec-amber); border: 0; width: 2.5in; }
+.page-number {
+  position: absolute; right: 0.7in; bottom: 0.5in;
+  font-family: 'VT323', monospace;
+  font-size: 10pt; letter-spacing: 0.28em;
+  color: var(--ghost);
+}
+.footer-mark {
+  position: absolute; left: 0.7in; bottom: 0.5in;
+  font-family: 'VT323', monospace;
+  font-size: 10pt; letter-spacing: 0.28em;
+  color: var(--ghost);
+}
+
+/* ---------- COVER ---------- */
+.page.cover {
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 45%, rgba(255,176,0,0.05) 0%, rgba(10,8,18,0) 70%),
+    var(--void);
+  display: flex; flex-direction: column;
+  justify-content: space-between; align-items: stretch;
+  padding: 0.85in 0.8in 0.8in;
+}
+.page.cover::before {
+  content: '';
+  position: absolute; inset: 0;
+  background: repeating-linear-gradient(180deg,
+    transparent 0, transparent 2.5px,
+    rgba(244,235,217,0.022) 2.5px, rgba(244,235,217,0.022) 3.5px);
+  pointer-events: none;
+}
+.cover-top { position: relative; z-index: 1; }
+.cover-mid {
+  position: relative; z-index: 1;
+  text-align: center; flex: 1;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: center;
+}
+.cover-bottom {
+  position: relative; z-index: 1;
+  display: flex; justify-content: space-between; align-items: flex-end;
+}
+.cover-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 122pt;
+  line-height: 0.86;
+  color: var(--bone);
+  letter-spacing: -0.035em;
+  margin-bottom: 0.45in;
+}
+.cover-title em {
+  font-style: italic;
+  font-weight: 700;
+  display: block;
+  color: var(--bone);
+}
+.cover-descriptor {
+  font-family: 'VT323', monospace;
+  font-size: 11pt;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--ghost);
+  margin-bottom: 0.25in;
+}
+.cover-dash {
+  color: var(--spec-amber);
+  font-size: 22pt;
+  letter-spacing: 0.5em;
+  margin-bottom: 0.4in;
+  font-family: 'Fraunces', serif;
+  font-weight: 300;
+}
+.cover-sub {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17pt;
+  line-height: 1.45;
+  color: var(--bone-dim);
+  max-width: 4.8in;
+  margin: 0 auto;
+}
+.cover-svg { margin-top: 0.55in; opacity: 0.85; }
+
+/* ---------- PREFACE ---------- */
+.page.preface {
+  padding: 0.85in 0.85in 0.9in;
+  display: flex; flex-direction: column;
+}
+.section-eyebrow { margin-bottom: 0.22in; }
+.section-rule-top {
+  width: 2.5in; height: 1px; background: var(--spec-amber);
+  margin-bottom: 0.45in;
+}
+.section-h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 38pt;
+  line-height: 1.06;
+  color: var(--bone);
+  letter-spacing: -0.015em;
+  margin-bottom: 0.55in;
+  max-width: 5.8in;
+}
+.section-h2 em { font-style: italic; font-weight: 400; }
+.body-col {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 12pt;
+  line-height: 1.6;
+  color: var(--bone);
+  max-width: 5.4in;
+}
+.body-col p { margin-bottom: 0.22in; text-align: justify; hyphens: auto; }
+.body-col p.drop::first-letter {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  float: left;
+  font-size: 56pt;
+  line-height: 0.85;
+  padding: 0.06in 0.10in 0 0;
+  color: var(--spec-amber);
+}
+
+/* ---------- STUDIES ---------- */
+.page.studies {
+  padding: 0.7in 0.8in 0.85in;
+  display: flex; flex-direction: column;
+}
+.studies-header {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 0.18in;
+}
+.studies-header .label {
+  font-family: 'VT323', monospace;
+  font-size: 11pt;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--ghost);
+}
+.studies-rule {
+  width: 2.5in; height: 1px; background: var(--spec-amber);
+  margin-bottom: 0.35in;
+}
+.study {
+  border-top: 1px solid var(--hairline);
+  padding-top: 0.22in;
+  padding-bottom: 0.28in;
+  display: grid;
+  grid-template-columns: 0.65in 1fr;
+  gap: 0.18in;
+}
+.study .num {
+  font-family: 'VT323', monospace;
+  font-size: 11pt;
+  letter-spacing: 0.28em;
+  color: var(--spec-amber);
+  padding-top: 0.03in;
+}
+.study .body { display: flex; flex-direction: column; }
+.study .meta {
+  font-family: 'VT323', monospace;
+  font-size: 10pt;
+  letter-spacing: 0.28em;
+  color: var(--ghost);
+  text-transform: uppercase;
+  margin-bottom: 0.10in;
+}
+.study .h {
+  font-family: 'Fraunces', serif;
+  font-weight: 500;
+  font-size: 18pt;
+  line-height: 1.18;
+  color: var(--bone);
+  letter-spacing: -0.005em;
+  margin-bottom: 0.15in;
+  max-width: 5.6in;
+}
+.study .p {
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+  font-size: 10.5pt;
+  line-height: 1.55;
+  color: var(--bone);
+  margin-bottom: 0.13in;
+  max-width: 5.6in;
+}
+.study .source {
+  font-family: 'VT323', monospace;
+  font-size: 9pt;
+  letter-spacing: 0.20em;
+  color: var(--ghost);
+  text-transform: uppercase;
+  margin-bottom: 0.10in;
+  max-width: 5.6in;
+}
+.study .why {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 10.5pt;
+  line-height: 1.5;
+  color: var(--bone-dim);
+  max-width: 5.6in;
+}
+.study .why::before {
+  content: 'Por qué importa → ';
+  font-style: normal;
+  color: var(--spec-amber);
+  font-family: 'VT323', monospace;
+  font-size: 10pt;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+/* ---------- CLOSING ---------- */
+.page.closing {
+  padding: 0.85in 0.85in 0.9in;
+  display: flex; flex-direction: column;
+}
+.cta-block {
+  margin-top: 0.5in;
+  border: 1px solid var(--spec-amber);
+  background: linear-gradient(135deg, rgba(255,176,0,0.06), rgba(255,176,0,0.0) 60%);
+  padding: 0.32in 0.42in;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.cta-block .label {
+  font-family: 'VT323', monospace;
+  font-size: 13pt;
+  letter-spacing: 0.30em;
+  text-transform: uppercase;
+  color: var(--spec-amber);
+}
+.cta-block .url {
+  font-family: 'VT323', monospace;
+  font-size: 10pt;
+  letter-spacing: 0.22em;
+  color: var(--bone-dim);
+  text-transform: lowercase;
+}
+.signature {
+  text-align: right;
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-size: 12pt;
+  color: var(--spec-amber);
+  margin-top: 0.35in;
+  margin-bottom: 0.25in;
+}
+
+svg.motif { display: block; }
+
+</style>
+</head>
+<body>
+
+<!-- ============ PÁGINA 1 · PORTADA ============ -->
+<section class="page cover">
+  <header class="cover-top">
+    <div class="mono" style="font-size:11pt; color:var(--spec-amber)">/// REPORTE DE CAMPO · BLACK SWAN PROJECT · 2026</div>
+  </header>
+  <div class="cover-mid">
+    <div class="cover-descriptor">/// La Lista Del Investigador · v1.0</div>
+    <h1 class="cover-title">La Mente<em>Moldea La Realidad.</em></h1>
+    <div class="cover-dash">— — —</div>
+    <p class="cover-sub">Princeton, la CIA y un laboratorio mexicano pasaron <em>sesenta años documentando</em> lo que tu libro de ciencias nunca te mencionó.</p>
+    <svg class="motif cover-svg" width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="10" cy="20" r="1.6" fill="#FFB000"/>
+      <circle cx="32" cy="9"  r="1.6" fill="#FFB000"/>
+      <circle cx="50" cy="26" r="1.6" fill="#FFB000"/>
+      <circle cx="68" cy="14" r="1.6" fill="#FFB000"/>
+      <circle cx="84" cy="30" r="1.6" fill="#FFB000"/>
+      <circle cx="102" cy="18" r="1.6" fill="#FFB000"/>
+      <circle cx="115" cy="8" r="1.6" fill="#FFB000"/>
+      <path d="M10 20 L32 9 L50 26 L68 14 L84 30 L102 18 L115 8" stroke="#FFB000" stroke-width="0.4" opacity="0.55"/>
+    </svg>
+  </div>
+  <footer class="cover-bottom">
+    <div class="mono" style="font-size:10pt; color:var(--ghost)">/// A. DEL PALACIO · BLACKSWANP.COM · v1.0</div>
+    <div class="mono" style="font-size:10pt; color:var(--ghost)">BSP · 01 / 08</div>
+  </footer>
+</section>
+
+<!-- ============ PÁGINA 2 · PREFACIO ============ -->
+<section class="page preface">
+  <div class="section-eyebrow mono" style="font-size:11pt; color:var(--ghost)">/// PREFACIO · CÓMO LEER ESTA LISTA</div>
+  <div class="section-rule-top"></div>
+
+  <h2 class="section-h2">Ni creyente. Ni escéptico. <em>Investigador.</em></h2>
+
+  <div class="body-col">
+    <p class="drop">Cada estudio en esta lista regresa a la misma pregunta: <em>¿hasta dónde alcanza la mente?</em> Princeton lo probó durante 28 años. La CIA durante 23. Un laboratorio en la UNAM en 1994. Un hospital holandés en 2014 y otra vez en 2022. Las respuestas no caben en un clip de 30 segundos — caben en una metodología, un tamaño de muestra, y un paper publicado. Que es lo que este documento te entrega.</p>
+    <p>El punto no es convencerte de nada. Es poner los experimentos reales en tus manos — papers arbitrados, programas desclasificados, archivos universitarios — para que tú decidas qué dicen los datos. Sin intermediarios. Sin exagerar. La mayoría de la divulgación sobre consciencia se vende más fuerte de lo que fue probada. Esta lista hace lo contrario: promete poco, cita mucho, todo enlaza a la fuente.</p>
+    <p>Cada entrada tiene la misma forma. Un párrafo en lenguaje claro de qué se hizo. Una cita completa con autor, año y revista. Una línea en cursiva marcada <em>Por qué importa →</em>, que dice lo que un investigador honesto debería llevarse. Nada más. Nada menos.</p>
+  </div>
+
+  <div style="margin-top: auto;">
+    <hr class="rule" style="margin-bottom: 0.18in; width: 2.5in;">
+    <svg class="motif" width="180" height="14" viewBox="0 0 180 14" fill="none">
+      <path d="M0 7 L20 7 L24 3 L28 11 L32 5 L36 9 L40 7 L80 7 L84 3 L88 11 L92 5 L96 9 L100 7 L180 7" stroke="#FFB000" stroke-width="0.5" opacity="0.6" fill="none"/>
+    </svg>
+  </div>
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 02 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 3 · ESTUDIOS 1-3 ============ -->
+<section class="page studies">
+  <header class="studies-header">
+    <span class="label">/// PRIMER CAPÍTULO · ESTUDIOS 01-03</span>
+    <span class="label" style="color:var(--spec-amber)">PÁGINA 03</span>
+  </header>
+  <div class="studies-rule"></div>
+
+  <article class="study">
+    <div class="num">01</div>
+    <div class="body">
+      <div class="meta">1979–2007 · Princeton · Estados Unidos</div>
+      <h3 class="h">Princeton corrió 1.7 millones de experimentos de atención durante 28 años.</h3>
+      <p class="p">Un laboratorio de ingeniería en Princeton probó silenciosamente si la atención humana podía influir en generadores de números aleatorios. Corrieron el experimento durante casi tres décadas. El efecto acumulado por prueba era diminuto pero se mantuvo estadísticamente positivo a lo largo de 1.7 millones de ensayos. El laboratorio cerró en 2007 sin resolver el mecanismo subyacente.</p>
+      <div class="source">Fuente · Jahn &amp; Dunne · Foundations of Physics · 1986 / Reporte final 2007</div>
+      <p class="why">Tres décadas de diseño experimental limpio no son ruido. El mecanismo está abierto. La curiosidad es la posición racional.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">02</div>
+    <div class="body">
+      <div class="meta">2014 · Países Bajos · 24 sujetos, doble ciego</div>
+      <h3 class="h">Investigadores holandeses inyectaron una toxina bacteriana a 24 personas sanas.</h3>
+      <p class="p">La mitad recibió diez días de entrenamiento respiratorio bajo el método Wim Hof. El cuerpo del grupo entrenado moduló la respuesta inflamatoria después de la exposición. El ensayo fue doble ciego y se publicó en una revista de la academia americana de primer nivel.</p>
+      <div class="source">Fuente · Kox y colaboradores · Proc. Natl. Acad. Sci. USA · 111(20):7379-7384 · 2014</div>
+      <p class="why">La respuesta inflamatoria del cuerpo se consideraba autónoma. Este estudio mostró que puede ser modulada por respiración entrenada.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">03</div>
+    <div class="body">
+      <div class="meta">1972–1995 · CIA · Estados Unidos</div>
+      <h3 class="h">La CIA corrió un programa de visión remota durante 23 años. Lo cerraron tres meses antes de publicar la auditoría.</h3>
+      <p class="p">20 millones de dólares. Más de 450 misiones operacionales. La estadística contratada para revisar los datos — quien después sería presidenta de la American Statistical Association — concluyó que el efecto era estadísticamente real. El programa cerró en 1995.</p>
+      <div class="source">Fuente · Utts, J. · An Assessment of the Evidence for Psychic Functioning · AIR · 1995</div>
+      <p class="why">El cierre fue político, no estadístico. Los datos publicados siguen existiendo.</p>
+    </div>
+  </article>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 03 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 4 · ESTUDIOS 4-6 ============ -->
+<section class="page studies">
+  <header class="studies-header">
+    <span class="label">/// SEGUNDO CAPÍTULO · ESTUDIOS 04-06</span>
+    <span class="label" style="color:var(--spec-amber)">PÁGINA 04</span>
+  </header>
+  <div class="studies-rule"></div>
+
+  <article class="study">
+    <div class="num">04</div>
+    <div class="body">
+      <div class="meta">1961–2007 · Universidad de Virginia · Estados Unidos</div>
+      <h3 class="h">Un psiquiatra de la Universidad de Virginia documentó 2,500 niños que reportaban recuerdos de vidas anteriores.</h3>
+      <p class="p">Programa de investigación de cuarenta años. Los casos se investigaron buscando detalles falsables — nombres, lugares, cicatrices. Algunos coincidían con hechos previamente desconocidos. El investigador fue riguroso para descartar fraude o coincidencia; no afirmó haber probado la reencarnación, solo haber documentado los casos.</p>
+      <div class="source">Fuente · Stevenson, I. · Children Who Remember Previous Lives · UVA Press · 1987</div>
+      <p class="why">El trabajo del investigador es ver lo que fue realmente documentado, no lo que el titular implica.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">05</div>
+    <div class="body">
+      <div class="meta">1994 · UNAM, México · Cámaras blindadas</div>
+      <h3 class="h">Un neuropsicólogo mexicano documentó el mismo patrón cerebral en dos personas separadas, después de estimular solo a una.</h3>
+      <p class="p">Parejas de meditadores en habitaciones blindadas electromagnéticamente. Se le aplicó un destello de luz a un sujeto. La actividad cerebral del otro sujeto mostró un patrón correlacionado, sin señal física entre ellos. Publicado en una revista de física revisada por pares.</p>
+      <div class="source">Fuente · Grinberg-Zylberbaum y colaboradores · Physics Essays · 7(4) 422-428 · 1994</div>
+      <p class="why">Parcialmente replicado desde entonces. El efecto es pequeño pero la metodología es auditable.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">06</div>
+    <div class="body">
+      <div class="meta">1991–2016 · Instituto HeartMath · California</div>
+      <h3 class="h">25 años midiendo si el corazón y el cerebro se sincronizan bajo coherencia.</h3>
+      <p class="p">La variabilidad de la frecuencia cardíaca — los pequeños cambios latido a latido que reflejan el balance del sistema nervioso — se desplaza de forma medible bajo estados emocionales y respiratorios específicos. El trabajo del instituto es independiente de la medicina académica pero la metodología está publicada.</p>
+      <div class="source">Fuente · Shaffer &amp; Ginsberg · Frontiers in Public Health · 5:258 · 2017</div>
+      <p class="why">La variabilidad cardíaca es un biomarcador documentado del estado del sistema nervioso, no folclor.</p>
+    </div>
+  </article>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 04 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 5 · ESTUDIOS 7-9 ============ -->
+<section class="page studies">
+  <header class="studies-header">
+    <span class="label">/// TERCER CAPÍTULO · ESTUDIOS 07-09</span>
+    <span class="label" style="color:var(--spec-amber)">PÁGINA 05</span>
+  </header>
+  <div class="studies-rule"></div>
+
+  <article class="study">
+    <div class="num">07</div>
+    <div class="body">
+      <div class="meta">1956–2008 · Clínico · Estados Unidos &amp; Chequia</div>
+      <h3 class="h">Stanislav Grof documentó 50 años de observación clínica de estados alterados inducidos por la respiración.</h3>
+      <p class="p">El protocolo de respiración holotrópica produce desplazamientos consistentes y observables en la experiencia consciente sin ninguna entrada farmacológica. El registro clínico de Grof es el dataset de un solo autor más largo sobre el tema, abarcando pacientes psiquiátricos y sujetos sanos en dos países.</p>
+      <div class="source">Fuente · Grof, S. · Realms of the Human Unconscious · Viking Press · 1976</div>
+      <p class="why">Un registro de 50 años en primera persona es data, incluso cuando el mecanismo todavía no se mide.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">08</div>
+    <div class="body">
+      <div class="meta">2022 · Hospital pre-quirúrgico · Países Bajos</div>
+      <h3 class="h">Un estudio hospitalario de 2022 reprodujo el experimento holandés de respiración en pacientes pre-quirúrgicos.</h3>
+      <p class="p">Diferente muestra. Diferente entorno. Misma dirección del efecto sobre los marcadores inflamatorios. El resultado de 2014 no fue un golpe de suerte. El estudio extendió el protocolo de voluntarios sanos a pacientes a punto de operarse — una población con interés clínico real en el resultado.</p>
+      <div class="source">Fuente · Zwaag y colaboradores · Critical Care · 26:120 · 2022</div>
+      <p class="why">La replicación es el estándar de oro. Esta lo pasó.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">09</div>
+    <div class="body">
+      <div class="meta">1980–2003 · Cambridge / experimentos públicos · Reino Unido</div>
+      <h3 class="h">Los experimentos de crucigramas y &quot;sensación de ser observado&quot; de Rupert Sheldrake.</h3>
+      <p class="p">Dos décadas de experimentos públicos de muestra grande, probando si la información puede transferirse fuera de los canales conocidos. Los efectos son pequeños pero consistentes a lo largo de los estudios. Sheldrake propuso un marco al que llama resonancia mórfica — la hipótesis de que los patrones de comportamiento pueden propagarse de forma no local — para explicar la regularidad.</p>
+      <div class="source">Fuente · Sheldrake, R. · The Sense of Being Stared At · Crown · 2003</div>
+      <p class="why">Efecto pequeño no es lo mismo que efecto cero. La replicación supera a la elegancia.</p>
+    </div>
+  </article>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 05 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 6 · ESTUDIOS 10-12 ============ -->
+<section class="page studies">
+  <header class="studies-header">
+    <span class="label">/// CUARTO CAPÍTULO · ESTUDIOS 10-12</span>
+    <span class="label" style="color:var(--spec-amber)">PÁGINA 06</span>
+  </header>
+  <div class="studies-rule"></div>
+
+  <article class="study">
+    <div class="num">10</div>
+    <div class="body">
+      <div class="meta">2008–presente · Universidad de California Irvine</div>
+      <h3 class="h">Las matemáticas de Donald Hoffman dicen que la percepción está afinada por la supervivencia, no por la verdad.</h3>
+      <p class="p">La teoría de juegos evolutiva muestra que los organismos cuya percepción rastrea utilidad superan a los organismos cuya percepción rastrea la realidad. La implicación: lo que ves es una interfaz, no el mundo. Hoffman lo llama Teoría de la Interfaz de la Percepción — un modelo que pone de cabeza la pregunta sobre &quot;datos anómalos&quot;.</p>
+      <div class="source">Fuente · Hoffman, D. · The Case Against Reality · W.W. Norton · 2019</div>
+      <p class="why">Si la percepción es interfaz, los datos &quot;anómalos&quot; pueden estar revelando el borde, no violando la realidad.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">11</div>
+    <div class="body">
+      <div class="meta">2004–presente · Universidad de Wisconsin-Madison</div>
+      <h3 class="h">Giulio Tononi propuso una teoría matemática de cuándo algo es consciente.</h3>
+      <p class="p">La Teoría de la Información Integrada cuantifica cuánta información causalmente integrada contiene un sistema. Por encima de un umbral, las matemáticas predicen consciencia. La teoría hace predicciones falsables sobre anestesia, daño cerebral y pacientes con hemisferios divididos — y varias de esas predicciones ya han sido puestas a prueba.</p>
+      <div class="source">Fuente · Tononi, G. · Phi: A Voyage from the Brain to the Soul · Pantheon · 2012</div>
+      <p class="why">Una teoría de la consciencia con predicciones falsables es una teoría que vale la pena seguir.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">12</div>
+    <div class="body">
+      <div class="meta">2010–presente · Independiente · Países Bajos</div>
+      <h3 class="h">Un filósofo holandés argumenta que la consciencia es fundamental — no producida por el cerebro.</h3>
+      <p class="p">El idealismo analítico de Kastrup invierte el modelo estándar: la materia es lo que la consciencia parece desde afuera. La posición se defiende filosóficamente, con argumentos lógicos probados contra la medición cuántica, el trastorno de identidad disociativo y la literatura de experiencias cercanas a la muerte — no de forma mística.</p>
+      <div class="source">Fuente · Kastrup, B. · The Idea of the World · Iff Books · 2019</div>
+      <p class="why">Aunque rechaces la conclusión, el argumento te obliga a defender el fisicalismo en sus méritos reales.</p>
+    </div>
+  </article>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 06 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 7 · ESTUDIOS 13-14 ============ -->
+<section class="page studies">
+  <header class="studies-header">
+    <span class="label">/// QUINTO CAPÍTULO · ESTUDIOS 13-14</span>
+    <span class="label" style="color:var(--spec-amber)">PÁGINA 07</span>
+  </header>
+  <div class="studies-rule"></div>
+
+  <article class="study">
+    <div class="num">13</div>
+    <div class="body">
+      <div class="meta">2021 · Brown University Medical · Estados Unidos</div>
+      <h3 class="h">Una psicóloga formada en Harvard publicó el primer estudio sistemático de cuándo la meditación sale mal.</h3>
+      <p class="p">Se encuestaron meditadores a largo plazo y profesionales clínicos. Los efectos adversos — insomnio, disociación, ansiedad, despersonalización — son reales, poco discutidos y predecibles. La posición del investigador es la honesta: la práctica es poderosa en ambas direcciones, y la literatura del lado positivo le ha sacado décadas de ventaja a la del lado negativo.</p>
+      <div class="source">Fuente · Britton y colaboradores · Clinical Psychological Science · 9(6) · 2021</div>
+      <p class="why">Las herramientas potentes tienen efectos secundarios. Pretender lo contrario es mala praxis.</p>
+    </div>
+  </article>
+
+  <article class="study">
+    <div class="num">14</div>
+    <div class="body">
+      <div class="meta">1978–1996 · Operacional · Estados Unidos</div>
+      <h3 class="h">El historial de aciertos y fallos de Joe McMoneagle fue registrado a lo largo de 18 años de misiones de la CIA.</h3>
+      <p class="p">Los registros públicos desclasificados muestran su precisión operacional en tareas de visión remota a lo largo de casi dos décadas de trabajo de inteligencia. Ni perfecto, ni aleatorio — en algún punto intermedio, de forma consistente. Los archivos de los casos fueron eventualmente liberados y siguen disponibles en los Archivos Nacionales.</p>
+      <div class="source">Fuente · McMoneagle, J. · The Stargate Chronicles · Hampton Roads · 2002</div>
+      <p class="why">El registro publicado existe. Léelo antes de tener una opinión.</p>
+    </div>
+  </article>
+
+  <div style="margin-top: auto;">
+    <hr class="rule" style="width: 2.5in; margin-bottom: 0.16in;">
+    <svg class="motif" width="180" height="14" viewBox="0 0 180 14" fill="none">
+      <line x1="0" y1="7" x2="180" y2="7" stroke="#2A2620" stroke-width="0.5"/>
+      <circle cx="90" cy="7" r="2" fill="#FFB000"/>
+      <circle cx="90" cy="7" r="4" fill="none" stroke="#FFB000" stroke-width="0.4"/>
+    </svg>
+  </div>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR</div>
+  <div class="page-number">BSP · 07 / 08</div>
+</section>
+
+<!-- ============ PÁGINA 8 · CIERRE ============ -->
+<section class="page closing">
+  <div class="section-eyebrow mono" style="font-size:11pt; color:var(--ghost)">/// CIERRE · DÓNDE LEER MÁS</div>
+  <div class="section-rule-top"></div>
+
+  <h2 class="section-h2">La lista es el piso, <em>no el techo.</em></h2>
+
+  <div class="body-col">
+    <p class="drop">Esta lista es el piso. Es la evidencia institucional de que la pregunta — <em>¿hasta dónde alcanza la mente?</em> — es una pregunta de investigación real, con datos reales, en el registro público. blackswanp.com sigue agregando estudios semana tras semana. Cada afirmación enlaza a su fuente primaria. Nada se vende más fuerte de lo que se probó.</p>
+    <p>Si leíste estos y pensaste &quot;quisiera probar algo de esto en mí mismo&quot; — ahí entra <em>El Protocolo de Alineación</em>. Un reporte de campo de 14 días corriendo tres de estas prácticas en mí, con las matemáticas adjuntas y los fallos publicados. Mismo estándar que los estudios de arriba. Tamaño de muestra personal de uno. Sin afirmaciones místicas.</p>
+    <p>La lista es el piso. El techo es lo que haces con la pregunta. Si la terminas y sigues con curiosidad — ese eres el investigador. Bienvenido. Hay más.</p>
+  </div>
+
+  <div class="cta-block">
+    <span class="label">LEE EL REPORTE DE CAMPO →</span>
+    <span class="url">blackswanp.com/courses/the-alignment-protocol/preview</span>
+  </div>
+
+  <div class="signature">— Alejandro Del Palacio · 2026 · blackswanp.com</div>
+
+  <div style="margin-top: auto;">
+    <hr class="rule" style="width: 2.5in; margin-bottom: 0.16in;">
+    <svg class="motif" width="180" height="40" viewBox="0 0 180 40" fill="none">
+      <circle cx="20"  cy="20" r="1.4" fill="#FFB000"/>
+      <circle cx="44"  cy="14" r="1.4" fill="#FFB000"/>
+      <circle cx="68"  cy="26" r="1.4" fill="#FFB000"/>
+      <circle cx="92"  cy="10" r="1.4" fill="#FFB000"/>
+      <circle cx="116" cy="22" r="1.4" fill="#FFB000"/>
+      <circle cx="140" cy="32" r="1.4" fill="#FFB000"/>
+      <circle cx="164" cy="18" r="1.4" fill="#FFB000"/>
+      <path d="M20 20 L44 14 L68 26 L92 10 L116 22 L140 32 L164 18" stroke="#FFB000" stroke-width="0.35" opacity="0.5"/>
+    </svg>
+  </div>
+
+  <div class="footer-mark">/// BSP · LA LISTA DEL INVESTIGADOR · v1.0 · 2026</div>
+  <div class="page-number">BSP · 08 / 08</div>
+</section>
+
+</body>
+</html>
