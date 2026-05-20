@@ -1,0 +1,17 @@
+{
+  "slug": "government-programs",
+  "title": "Government Programs",
+  "title_es": "Programas Gubernamentales",
+  "seoTitle": "CIA Stargate, Gateway, MK-Ultra: Government Consciousness Research",
+  "seoTitle_es": "CIA Stargate, Gateway, MK-Ultra: investigación gubernamental de consciencia",
+  "description": "For five decades, the CIA, DIA, NSA, and Soviet GRU spent hundreds of millions of dollars researching consciousness, remote viewing, and psi phenomena. Most of the documents are now declassified. This is what they actually found.",
+  "description_es": "Durante cinco décadas, la CIA, la DIA, la NSA y el GRU soviético gastaron cientos de millones de dólares investigando consciencia, visión remota y fenómenos psi. La mayoría de los documentos ya están desclasificados. Esto es lo que realmente encontraron.",
+  "articles": [
+    "stargate-project",
+    "gateway-process"
+  ],
+  "imagePrompt": "Retrofuturist 1970s cinematic still photograph. Heavy 35mm grain, anamorphic lens flare, kodak ektachrome retro slide aesthetic. The chromatic zone is the ONLY saturated area — everything else is desaturated matte black with deep shadow. No recognizable face. Mysterious investigator-archive aesthetic. Photographic NOT painterly NOT illustrated. A pitch-black government archive room dominates 70 percent of the frame. Center: an open metal filing cabinet drawer crammed with manila folders stamped CONFIDENTIAL · DECLASSIFIED · TOP SECRET in red ink, one folder labeled \"STAR GATE / GATEWAY\" pulled forward. A brass desk lamp throws a sharp amber cone of light onto the open folder; visible inside are typewritten pages with redacted black censor bars and a few unredacted phrases (\"remote viewing\", \"p<.05\", \"operational success\"). Behind the cabinet, dim fluorescent strip lights fail to reach the floor. The folders + amber lamplight + red stamps are the chromatic zone. Mood: All The President's Men + Three Days of the Condor.",
+  "imageSeed": 1101,
+  "imageAspectRatio": "3:2",
+  "image": "/og/pillar-government-programs.jpg"
+}

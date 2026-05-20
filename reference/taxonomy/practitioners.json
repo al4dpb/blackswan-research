@@ -1,0 +1,19 @@
+{
+  "slug": "practitioners",
+  "title": "Practitioners",
+  "title_es": "Practicantes",
+  "seoTitle": "Modern Consciousness Teachers Audited: Wim Hof, Joe Dispenza, Huberman",
+  "seoTitle_es": "Maestros modernos de la consciencia auditados: Wim Hof, Joe Dispenza, Huberman",
+  "description": "Joe Dispenza. Wim Hof. Gregg Braden. The contemporary teachers who dominate consciousness culture — examined through the evidence, not the merch.",
+  "description_es": "Joe Dispenza. Wim Hof. Gregg Braden. Los maestros contemporáneos que dominan la cultura de la consciencia — examinados a través de la evidencia, no del merch.",
+  "articles": [
+    "joe-dispenza-evidence",
+    "wim-hof-method",
+    "wim-hof-dangers",
+    "cold-plunge-evidence"
+  ],
+  "imagePrompt": "Retrofuturist 1970s cinematic still photograph. Heavy 35mm grain, anamorphic lens flare, kodak ektachrome retro slide aesthetic. The chromatic zone is the ONLY saturated area — everything else is desaturated matte black with deep shadow. No recognizable face. Mysterious investigator-archive aesthetic. Photographic NOT painterly NOT illustrated. A dim brutalist concrete training chamber dominates 70 percent of the frame in deep matte black and desaturated graphite gray. Center: a single steel-walled ice bath filled with floating chunks of ice in pitch-black water; a lone unidentifiable back-turned silhouette submerged to the chest, white plumes of breath rising visibly. To the side, a vintage analog medical monitor showing TNF-α, CORTISOL, ADRENALINE traces in glowing emerald green CRT. A weak overhead industrial lamp throws a tight cone of pale amber light onto the bath. The ice bath + amber lamplight + emerald monitor are the chromatic zone — frost-white ice, amber, emerald CRT. Mood: Tarkovsky Stalker + Dune 1984.",
+  "imageSeed": 4404,
+  "imageAspectRatio": "3:2",
+  "image": "/og/pillar-practitioners.jpg"
+}

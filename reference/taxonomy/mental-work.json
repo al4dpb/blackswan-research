@@ -1,0 +1,20 @@
+{
+  "slug": "mental-work",
+  "title": "Mental Work",
+  "title_es": "Trabajo Mental",
+  "seoTitle": "Mental Work: Evidence-Graded Protocols for Sleep, Anxiety, Focus",
+  "seoTitle_es": "Trabajo mental: protocolos con evidencia para sueño, ansiedad y enfoque",
+  "description": "Anxiety, sleep, focus, burnout, the nervous system. The investigator-grade alternative to the wellness-influencer industrial complex. Every protocol cited. Every claim tested. Receipts only.",
+  "description_es": "Ansiedad, sueño, foco, burnout, el sistema nervioso. La alternativa con rigor de investigador al complejo industrial de los influencers de bienestar. Cada protocolo citado. Cada afirmación probada. Solo recibos.",
+  "articles": [
+    "anxiety-natural-remedies",
+    "tinnitus-evidence-2026",
+    "magnesium-for-sleep",
+    "ashwagandha-evidence",
+    "vagus-nerve-exercises"
+  ],
+  "imagePrompt": "Retrofuturist 1970s cinematic still photograph. Heavy 35mm grain, anamorphic lens flare, kodak ektachrome retro slide aesthetic. The chromatic zone is the ONLY saturated area — everything else is desaturated matte black with deep shadow. No recognizable face. Mysterious investigator-archive aesthetic. Photographic NOT painterly NOT illustrated. A dim 1970s clinical observation chamber dominates 70 percent of the frame in deep desaturated cobalt and matte black. Center: a workbench arrayed with the evidence-base toolkit — three small amber pill bottles labeled MAGNESIUM-GLYCINATE / ASHWAGANDHA / NAC, an open RCT printout circled in red marker showing p<0.001 results, an EEG headset with electrode caps draped beside it, a vintage analog HRV monitor pulsing emerald-green traces. A single brass desk lamp throws an amber pool of light over the items; the rest of the chamber is in deep shadow. The amber-lit workbench + bottles + RCT printout + emerald HRV are the chromatic zone — amber, paper-cream, blood-red ink, emerald green. Mood: All The President's Men + clinical-research retrofuturism.",
+  "imageSeed": 7707,
+  "imageAspectRatio": "3:2",
+  "image": "/og/pillar-mental-work.jpg"
+}

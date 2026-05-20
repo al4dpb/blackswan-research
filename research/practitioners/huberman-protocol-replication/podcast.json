@@ -1,0 +1,147 @@
+{
+  "slug": "huberman-protocol-replication",
+  "estimated_duration_seconds": 800,
+  "estimated_word_count": 2000,
+  "segments": [
+    {
+      "host": "A",
+      "text": "January 2021. Andrew Huberman launches the Huberman Lab podcast. By Q3 2024, six million monthly listeners across audio platforms. Each episode cites peer-reviewed studies, often by lead author and journal."
+    },
+    {
+      "host": "B",
+      "text": "That was the source of the trust. It also produced a set of empirically testable claims that the rest of academic neuroscience eventually got around to checking. The result is mixed."
+    },
+    {
+      "host": "A",
+      "text": "Let's be clear. This isn't a takedown. This is the audit the podcast invites by citing studies as though the citations close the question."
+    },
+    {
+      "host": "B",
+      "text": "Some protocols replicate cleanly. Some replicate partially in narrower populations than the podcast frames. Some are extrapolations from animal data with no human RCT support. And one — the cited Pubpeer record on a subset of co-authored papers — sits in a category Huberman has not publicly addressed."
+    },
+    {
+      "host": "A",
+      "text": "Start with morning sunlight. The most-discussed protocol. Does it actually do what the podcast says?"
+    },
+    {
+      "host": "B",
+      "text": "This one largely holds. The mechanism — retinal exposure to specific wavelengths of morning light entrains the suprachiasmatic nucleus and shifts melatonin release timing — is one of the most-replicated findings in chronobiology. Smolensky 2015 review, Sleep Medicine Reviews. Wright 2013, Current Biology. The experimental signal is robust."
+    },
+    {
+      "host": "A",
+      "text": "Where does the podcast slightly outrun the literature?"
+    },
+    {
+      "host": "B",
+      "text": "The prescribed dose. Two to ten minutes within thirty minutes of waking, longer if cloudy. That's reasonable inference but more specific than the underlying trials. Most chronobiology protocols use sustained thirty-minute light-box exposures at ten thousand lux indoors. The two-minute outdoor recommendation is downstream synthesis. It's not a replication of an existing trial."
+    },
+    {
+      "host": "A",
+      "text": "Cold exposure. The eleven-minutes-per-week protocol. Real or extrapolated?"
+    },
+    {
+      "host": "B",
+      "text": "Cold-water immersion has a real evidence base. The cleanest single trial is Søberg 2021, Cell Reports Medicine. Eight young men trained in winter swimming at zero to five degrees Celsius across three months. Increased brown adipose tissue activity, improved cold tolerance, altered glucose metabolism."
+    },
+    {
+      "host": "A",
+      "text": "And the eleven-minute, fifty to fifty-five degree specification?"
+    },
+    {
+      "host": "B",
+      "text": "Calibrated synthesis. Not direct replication. Søberg used near-freezing winter swimming. Most recovery trials used ten to fifteen degrees. The fifty to fifty-five degree middle ground is reasonable bridging. It is not what any single trial actually tested."
+    },
+    {
+      "host": "A",
+      "text": "NSDR. Non-sleep deep rest. Yoga nidra. The cognitive claims."
+    },
+    {
+      "host": "B",
+      "text": "This is where the evidence-confidence gap is largest. The human RCT base is small. Pandi-Perumal 2020 meta-analysis aggregated eight studies, mostly small, several uncontrolled, several from non-blinded designs. Pattern: short-term reductions in self-reported anxiety and stress, comparable to other relaxation protocols. No replicated effect on objective cognitive performance. No demonstrated effect on memory consolidation comparable to actual sleep."
+    },
+    {
+      "host": "A",
+      "text": "And the podcast frames it how?"
+    },
+    {
+      "host": "B",
+      "text": "As a tool that can replace lost sleep or accelerate learning consolidation. Neither claim is supported by the human RCT literature at the strength implied. Yoga nidra appears to be a useful relaxation intervention. The animal-model and EEG-physiology work it draws on does not justify the specific cognitive claims."
+    },
+    {
+      "host": "A",
+      "text": "Fadogia agrestis. The Nigerian shrub. Testosterone."
+    },
+    {
+      "host": "B",
+      "text": "Animal data only. The Yakubu 2008 paper in Asian Journal of Andrology documented raised serum testosterone in male rats given aqueous fadogia extract. That is the entire human-relevant evidence base. There are no published human randomized controlled trials of fadogia agrestis for testosterone, libido, or any other endocrine outcome."
+    },
+    {
+      "host": "A",
+      "text": "The market response?"
+    },
+    {
+      "host": "B",
+      "text": "Sales of fadogia-containing products exceeded forty million dollars in the year following the protocol's discussion on the Huberman Lab podcast. The supply ramp-up was not preceded by any human safety trial. The plant has documented hepatotoxicity in animal models at higher doses. Huberman discusses the absence of human trials and recommends bloodwork monitoring. The audience response treats it as effectively recommended. The gap between speaker caution and listener interpretation is itself a documented phenomenon in health communication research."
+    },
+    {
+      "host": "A",
+      "text": "Sleep timing. The framework versus the specific recommendations."
+    },
+    {
+      "host": "B",
+      "text": "Framework holds. Sleep timing matters as much as duration, consistent wake times stabilize the circadian system, late evening light disrupts melatonin onset. Smolensky and Wright corpus, plus the Czeisler lab at Harvard. The translation into specific behavioral prescriptions — wake within thirty minutes consistency, no overhead light after ten p.m., delay caffeine ninety to a hundred twenty minutes — each has reasonable inference. None is a directly tested RCT outcome."
+    },
+    {
+      "host": "A",
+      "text": "The caffeine delay specifically. Was it ever tested?"
+    },
+    {
+      "host": "B",
+      "text": "First RCT specifically testing the delayed-caffeine hypothesis was published 2024. Showed no significant effect on subjective alertness or cortisol curve in habitual coffee drinkers. The mechanism reasoning — caffeine half-life pharmacokinetics, adenosine-receptor occupancy — is sound. The translated behavioral protocol has not survived its first head-to-head trial."
+    },
+    {
+      "host": "A",
+      "text": "What's the broader pattern?"
+    },
+    {
+      "host": "B",
+      "text": "Three patterns recur. The podcast accurately represents the direction of effects most of the time — when Huberman says cold exposure has metabolic effects, the literature backs that. The specific protocol parameters — exact dosages, durations, timing — are typically synthesis or extrapolation, not direct replication of trial protocols. And the confidence framing exceeds the underlying evidence in several recurring categories: animal-only data presented with implicit human translation, small uncontrolled trials presented as though equivalent to RCTs, mechanism-based reasoning presented as outcome-tested protocol."
+    },
+    {
+      "host": "A",
+      "text": "And the Pubpeer record on co-authored papers?"
+    },
+    {
+      "host": "B",
+      "text": "Separate category. Documented in the 2024 New York Magazine profile and subsequent academic discussion. Relevant context for evaluating the institutional record. Not a substitute for the protocol-by-protocol audit."
+    },
+    {
+      "host": "A",
+      "text": "What we can say, what we can't."
+    },
+    {
+      "host": "B",
+      "text": "We can say: morning sunlight exposure entrains circadian rhythm and improves daytime alertness. Documented across decades. Cold-water immersion produces measurable metabolic and inflammatory effects. NSDR-style guided relaxation reduces self-reported anxiety, comparable to other relaxation protocols. Fadogia agrestis has no human trial evidence."
+    },
+    {
+      "host": "B",
+      "text": "We can't say: that the specific Huberman-popularized protocol parameters are RCT-tested. Most are reasonable synthesis from adjacent trials, not direct replication. We can't say: that the Pubpeer record on co-authored papers invalidates the podcast's translation work — the two are separable, both deserve their own scrutiny. We can't say: that audience adherence to the protocols produces the specific outcomes the podcast frames. Long-form behavior change studies of podcast-driven self-experimentation do not exist."
+    },
+    {
+      "host": "A",
+      "text": "Practical takeaway. How does the listener read a podcast that cites real studies but presents them at a confidence level the data doesn't support?"
+    },
+    {
+      "host": "B",
+      "text": "Read the cited papers. When that's impossible, downgrade confidence by one tier from the speaker's framing. Treat protocol parameters as reasonable synthesis, not as tested doses. Run any experimental protocol on yourself with the same self-tracking discipline you would expect from a published trial — baseline measurement, defined outcome, a window to evaluate, a stopping rule."
+    },
+    {
+      "host": "A",
+      "text": "The closing question. Which protocols in your current routine are RCT-tested, and which are reasonable inference dressed in study-citation confidence?"
+    },
+    {
+      "host": "B",
+      "text": "If this is the question that interests you, the related transmission worth reading next is the Joe Dispenza evidence audit — same pillar, same investigator-grade examination of a popular practitioner against the peer-reviewed record."
+    }
+  ]
+}

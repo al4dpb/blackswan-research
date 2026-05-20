@@ -1,0 +1,23 @@
+{
+  "slug": "best-cold-plunge-protocol",
+  "title": "Best Cold Plunge Protocol: Ranked by Outcome and Safety (2026)",
+  "description": "Five cold-water immersion protocols with different temperature, duration, and frequency targets. Ranked by what the peer-reviewed evidence actually supports — not by what cold-plunge brands recommend.",
+  "seoTitle": "Best Cold Plunge Protocol: Ranked by Evidence and Safety (2026)",
+  "seoDescription": "Best cold plunge protocols ranked by RCT evidence for recovery, norepinephrine, and BAT activation. Temperature, duration, and the one tradeoff nobody mentions.",
+  "category": "cold-exposure",
+  "relatedArticles": ["cold-plunge-evidence"],
+  "image": "/og/best-cold-plunge-protocol.jpg",
+  "imageAlt": "Dark retrofuturist laboratory with temperature gauge showing 14°C against a CRT portal background",
+  "published": "2026-05-01",
+  "modified": "2026-05-01",
+  "wordCount": 1700,
+  "citationsCount": 9,
+  "ranked": [
+    { "rank": 1, "name": "Machado/Huberman recovery protocol (11–15°C, 11–15 min, 2–4x/week)", "score": 9.0, "summary": "Best-evidenced dose-response sweet spot. Maps directly to Machado 2016 meta-analysis (n=99 studies). Minimizes cardiac risk. The Huberman 11 min/week variant." },
+    { "rank": 2, "name": "Søberg BAT activation protocol (10°C, 11 min, non-shivering end-state)", "score": 8.2, "summary": "Optimized for brown adipose tissue and metabolic signaling per Søberg 2021. Requires cold-habituation. Natural rewarming only." },
+    { "rank": 3, "name": "Post-exercise recovery flush (15°C, 10–15 min, within 1 hour post-workout)", "score": 7.5, "summary": "Strong soreness reduction evidence. Trade-off: attenuates hypertrophy adaptations (Roberts 2015). Not for strength-training days." },
+    { "rank": 4, "name": "Cold shower ramp protocol (Buijze 2016 design, 30–90 sec cold finish)", "score": 6.8, "summary": "Buijze 2016 RCT (n=3,018): 29% reduction in sickness absence vs. hot shower. Low barrier to entry. Lower norepinephrine response than full immersion." },
+    { "rank": 5, "name": "Very cold ice bath (≤8°C, single session)", "score": 4.5, "summary": "Used in elite sport contexts. No consistent RCT advantage over 11–15°C protocols for most outcomes. Higher cold-shock severity and cardiac risk." }
+  ],
+  "criteria": ["RCT evidence quality", "Outcome specificity", "Safety profile", "Reproducibility"]
+}

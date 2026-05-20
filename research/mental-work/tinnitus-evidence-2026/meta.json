@@ -1,0 +1,185 @@
+{
+  "title": "Tinnitus Was 'Untreatable' for 30 Years. The 2026 Data Just Changed That.",
+  "title_es": "El tinnitus fue 'incurable' durante 30 años. La información de 2026 acaba de cambiarlo.",
+  "description": "Bimodal stimulation (Lenire) cleared FDA in 2023. Internet CBT outperformed in-person CBT in a 2024 trial. Bone-conduction maskers got revisited. Notched music therapy faded. We map the 2024-2026 tinnitus evidence frontier — what's promising, what's already snake oil, what's still in pre-clinical.",
+  "description_es": "La estimulación bimodal (Lenire) fue aprobada por la FDA en 2023. La TCC por internet superó a la TCC presencial en un ensayo de 2024. Los maskers de conducción ósea fueron reexaminados. La terapia de música con muescas perdió fuerza. Mapeamos la frontera de evidencia 2024-2026 sobre tinnitus — qué es prometedor, qué ya es aceite de serpiente, qué sigue en preclínica.",
+  "pillar": "mental-work",
+  "slug": "tinnitus-evidence-2026",
+  "canonical": "https://blackswanp.com/research/mental-work/tinnitus-evidence-2026",
+  "published": "2026-04-19",
+  "modified": "2026-04-23",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "tinnitus treatment 2026",
+    "tinnitus cure latest research",
+    "lenire tinnitus device evidence",
+    "bimodal stimulation tinnitus",
+    "tinnitus CBT internet trial",
+    "tinnitus retraining therapy review",
+    "ringing in ears treatment evidence"
+  ],
+  "targetQuery": "tinnitus treatment",
+  "monthlySearchVolumeEstimate": 1000000,
+  "aiOverviewPotential": "very high",
+  "image": "/og/tinnitus-evidence-2026.jpg",
+  "imageAlt": "Dark 1980s observation chamber, lone figure facing a vintage curved CRT portal showing a high-contrast multicolor cross-section of the human ear (cochlea + auditory nerve + brain stem) with rainbow-spectrum sound waves radiating from a central tinnitus tone in electric red — the phantom signal breaking through the dark matrix",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dark observation chamber dominates 70 percent of the frame in deep pitch-black with heavy film grain. On the right side: a large vintage curved CRT cathode-ray screen or glowing rectangular portal showing a HIGH-CONTRAST SATURATED MULTICOLOR scene — a brilliantly illuminated anatomical cross-section of the human ear (outer canal, eardrum, cochlea spiral, auditory nerve, brain stem connection) rendered with electric blue cochlear hair cells and sanguine red auditory nerve, surrounded by sound-wave radials emanating in a vibrant rainbow spectrum (deep blue low-frequency, electric violet, cyan, emerald, electric red high-frequency phantom-tone at the center), neuron firing patterns glowing through the brain stem in chromatic streaks. The screen/portal is the ONLY chromatic zone — vibrantly breaking out of the dark matrix with saturated rainbow-spectrum sound contrast against the void. Small solitary back-turned silhouette of a figure in dark 1980s attire stands in the foreground observing the portal. Vintage analog control panel with faint scattered electric blue and red LED indicators in deep shadow foreground. Heavy cinematic 35mm film grain, anamorphic lens flare, VHS scanline overlay, kodak ektachrome retro slide aesthetic. Mood: Tron 1982 + Kubrick 2001 + Tarkovsky Stalker + Apple 1984. The dark room is the matrix; the multicolor ear-brain-phantom-tone atlas inside the portal is the 2023 evidence frontier escaping. No recognizable face. Mysterious retrofuturist forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 7410,
+  "imageAspectRatio": "3:2",
+  "medicalCondition": {
+    "@type": "MedicalCondition",
+    "name": "Tinnitus",
+    "alternateName": "Ringing in the ears",
+    "signOrSymptom": "Phantom auditory signal — perceived ringing, buzzing, hissing, or clicking without external acoustic source",
+    "associatedAnatomy": {
+      "cochlea": {
+        "@type": "AnatomicalStructure",
+        "name": "Cochlea",
+        "description": "Fluid-filled spiral cavity of the inner ear; noise-induced cochlear hair-cell damage is the most common tinnitus origin"
+      },
+      "auditoryNerve": {
+        "@type": "AnatomicalStructure",
+        "name": "Auditory nerve",
+        "alternateName": "Vestibulocochlear nerve (CN VIII)",
+        "description": "Transmits neural signals from cochlear hair cells to the auditory brainstem and cortex; aberrant firing patterns implicated in tinnitus generation"
+      },
+      "auditoryCortex": {
+        "@type": "AnatomicalStructure",
+        "name": "Auditory cortex",
+        "description": "Primary cortical region for sound processing; maladaptive neuroplasticity in the auditory cortex is the central mechanism targeted by Lenire bimodal stimulation"
+      }
+    },
+    "epidemiology": "14.4% adult prevalence worldwide — approximately 740 million adults (Haider et al., JAMA Neurology 2022). US: 25 million report tinnitus lasting 5+ consecutive minutes. Severe tinnitus: 2.3% global prevalence.",
+    "possibleTreatment": [
+      {
+        "@type": "MedicalDevice",
+        "name": "Lenire",
+        "manufacturer": {
+          "@type": "Organization",
+          "name": "Neuromod Devices"
+        }
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Cognitive Behavioral Therapy (CBT)",
+        "alternateName": "Internet-delivered CBT (iCBT)"
+      },
+      {
+        "@type": "MedicalTherapy",
+        "name": "Tinnitus Retraining Therapy (TRT)"
+      }
+    ],
+    "audience": {
+      "@type": "MedicalAudience",
+      "audienceType": "patient",
+      "healthCondition": "Tinnitus — adults 18+ with moderate-to-severe persistent tinnitus"
+    }
+  },
+  "medicalDevices": [
+    {
+      "@type": "MedicalDevice",
+      "name": "Lenire",
+      "alternateName": "Lenire combined acoustic and electrical external stimulation device",
+      "manufacturer": {
+        "@type": "Organization",
+        "name": "Neuromod Devices",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dublin",
+          "addressCountry": "IE"
+        }
+      },
+      "regulatoryStatus": "FDA De Novo Class II authorization — DEN210033, March 2023",
+      "indication": {
+        "@type": "MedicalIndication",
+        "name": "Temporary relief of tinnitus symptoms in adults 18+ with at least moderate tinnitus"
+      },
+      "mechanismOfAction": "Bimodal neuromodulation: synchronized auditory (sound) and somatosensory (mild transmucosal electrical tongue) stimulation delivered simultaneously, hypothesized to trigger neuroplasticity in the auditory cortex reducing tinnitus representation",
+      "clinicalTrials": [
+        {
+          "name": "TENT-A1",
+          "year": 2020,
+          "journal": "Science Translational Medicine",
+          "authors": "Conlon et al.",
+          "n": 326,
+          "primaryOutcome": "86.2% treatment-compliant participants improved on THI; 80.1% maintained improvement at 12-month follow-up",
+          "limitation": "No sham control arm"
+        },
+        {
+          "name": "TENT-A2",
+          "year": 2022,
+          "journal": "Scientific Reports",
+          "authors": "Conlon et al.",
+          "n": 298,
+          "primaryOutcome": "Average THI reduction 18.5 points at 12 weeks; 20.2 points at 12-month follow-up without continued treatment"
+        },
+        {
+          "name": "TENT-A3",
+          "year": 2024,
+          "journal": "Nature Communications",
+          "authors": "Conlon et al.",
+          "n": 112,
+          "design": "Multi-site active-controlled (bimodal vs sound therapy alone)",
+          "primaryOutcome": "79.4% clinically significant improvement; real-world post-authorization data (n=204) showed mean THI improvement 27.8 points"
+        }
+      ],
+      "approxCostUSD": "3000-5000",
+      "availability": "100+ US audiology clinics (2026)"
+    }
+  ],
+  "medicalEntities": [
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Cochlea",
+      "partOf": "Inner ear",
+      "relevance": "Noise-induced cochlear hair-cell damage is the most common cause of tinnitus; heterogeneity of cochlear vs non-cochlear origins explains why no single treatment works universally"
+    },
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Auditory nerve",
+      "alternateName": "Vestibulocochlear nerve (CN VIII)",
+      "partOf": "Peripheral nervous system",
+      "relevance": "Aberrant spontaneous firing in auditory nerve fibers contributes to phantom-signal generation; target of pharmacological tinnitus research"
+    },
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Auditory cortex",
+      "partOf": "Cerebral cortex — temporal lobe",
+      "relevance": "Maladaptive neuroplasticity — tonotopic map reorganization following hearing loss — is the primary cortical mechanism targeted by Lenire bimodal stimulation and rTMS protocols"
+    },
+    {
+      "@type": "AnatomicalStructure",
+      "name": "Tongue (dorsal surface)",
+      "relevance": "Site of somatosensory (transmucosal electrical) stimulation in Lenire bimodal protocol; dense mechanoreceptor innervation enables pairing with auditory input to drive targeted cortical plasticity"
+    }
+  ],
+  "researchSources": [
+    "Conlon et al. 2020/2022 — bimodal Lenire pivotal trials",
+    "Beukes et al. 2018, 2024 — internet CBT for tinnitus",
+    "Hesser et al. — CBT tinnitus meta-analysis",
+    "Stein et al. — notched music therapy critical reviews",
+    "FDA Lenire De Novo authorization 2023"
+  ],
+  "syndications": [],
+  "audioEs": "/audio/tinnitus-evidence-2026.es.mp3",
+  "audioEsDuration": 995,
+  "audioEsGeneratedAt": "2026-04-25T18:50:50.799Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audio": "/audio/tinnitus-evidence-2026.mp3",
+  "audioDuration": 967,
+  "audioGeneratedAt": "2026-04-25T19:06:07Z",
+  "wordCount": 3842,
+  "citationsCount": 12,
+  "primarySources": 10,
+  "foiaCount": 0,
+  "evidenceDensity": 0.3,
+  "seoTitle": "Tinnitus Treatment 2026: Lenire FDA, Bimodal Stimulation, Evidence",
+  "seoTitle_es": "Tratamiento de tinnitus 2026: Lenire FDA, estimulación bimodal, evidencia",
+  "seoDescription": "Tinnitus was 'untreatable' for 30 years. The 2026 evidence — Lenire FDA approval, bimodal stimulation, vagal tone — has changed the protocol stack.",
+  "seoDescription_es": "El tinnitus fue 'incurable' durante 30 años. La evidencia 2026 — aprobación FDA de Lenire, estimulación bimodal, tono vagal — ha cambiado el stack de protocolos.",
+  "bluf": "Bimodal stimulation (Lenire, Neuromod Devices) received FDA clearance in 2023 with 84% of patients reporting improvement at 12 weeks (Conlon et al. 2020). Internet-delivered CBT outperformed in-person CBT in a 2024 Beukes trial. Notched music therapy and most supplements (Gingko biloba, melatonin) failed replication. The 30-year 'tinnitus is untreatable' narrative no longer holds — for a subset of patients with bimodal-responsive subtypes.",
+  "bluf_es": "La estimulación bimodal (Lenire, Neuromod Devices) recibió autorización de la FDA en 2023, con 84% de pacientes reportando mejoría a las 12 semanas (Conlon et al. 2020). La CBT por internet superó a la CBT presencial en un ensayo de Beukes de 2024. La musicoterapia con muesca y la mayoría de suplementos (Gingko biloba, melatonina) fallaron la replicación. La narrativa de 30 años de que 'el tinnitus es intratable' ya no se sostiene — para un subconjunto de pacientes con subtipos respondedores a la estimulación bimodal."
+}

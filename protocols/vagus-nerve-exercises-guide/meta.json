@@ -1,0 +1,23 @@
+{
+  "slug": "best-vagus-nerve-exercises",
+  "title": "Best Vagus Nerve Exercises: Ranked by RCT Evidence (2026)",
+  "description": "Fifty-two popular vagus nerve exercises circulate online. Five have actual randomized controlled trial evidence. This ranking covers what the research shows for HRV, anxiety, and parasympathetic activation — and names the 47 that don't make the cut.",
+  "seoTitle": "Best Vagus Nerve Exercises: Ranked by RCT Evidence (2026)",
+  "seoDescription": "Best vagus nerve exercises ranked by RCT evidence for HRV and anxiety. The 5 that work (dose, timing, effect sizes) and why the other 47 are pseudoscience.",
+  "category": "breathwork-and-nervous-system",
+  "relatedArticles": ["vagus-nerve-exercises", "wim-hof-method"],
+  "image": "/og/best-vagus-nerve-exercises.jpg",
+  "imageAlt": "Anatomical vagus nerve rendering with HRV waveform overlay on a dark observation chamber CRT portal",
+  "published": "2026-05-01",
+  "modified": "2026-05-01",
+  "wordCount": 1920,
+  "citationsCount": 12,
+  "ranked": [
+    { "rank": 1, "name": "HRV biofeedback training", "score": 9.2, "summary": "Hedges' g = 0.83 for anxiety in meta-analysis of 24 RCTs. Largest sustained evidence base. 5–20 min/day at resonance frequency (6 bpm)." },
+    { "rank": 2, "name": "Slow exhalation breathing (4:8 or 5:5 pattern)", "score": 8.5, "summary": "Consistent HRV increase across multiple RCTs. Gerritsen & Band 2018 review confirmed parasympathetic activation. Zero cost, no equipment." },
+    { "rank": 3, "name": "Cold face immersion (diving reflex)", "score": 7.8, "summary": "Documented parasympathetic bradycardia response. RCT evidence for acute anxiety reduction. Combines with breathwork in polyvagal protocols." },
+    { "rank": 4, "name": "Transcutaneous auricular VNS (taVNS)", "score": 7.5, "summary": "Liu 2023 meta-analysis: 12 RCTs, 838 participants, significant depression/anxiety improvement. Requires device. Cymba conchae targeting essential." },
+    { "rank": 5, "name": "Humming / sustained vocalization", "score": 6.0, "summary": "Stimulates vagus nerve via laryngeal branch. Limited RCT evidence; mechanistically plausible. 2022 pilot data on HRV improvement." }
+  ],
+  "criteria": ["RCT evidence quality", "Effect size", "Accessibility", "Mechanistic specificity"]
+}

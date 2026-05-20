@@ -1,0 +1,251 @@
+{
+  "slug": "magnesium-for-sleep",
+  "estimated_duration_seconds": 915,
+  "estimated_word_count": 2136,
+  "segments": [
+    {
+      "host": "A",
+      "text": "48%. Esa es la proporción de adultos estadounidenses que consumen menos magnesio del que establece su Requerimiento Promedio Estimado — solo a través de la dieta. Casi la mitad."
+    },
+    {
+      "host": "B",
+      "text": "Y la industria de suplementos vio ese número y construyó una categoría entera alrededor de él. Magnesio para dormir. Luna en la etiqueta. 400 miligramos de lo que fuera más barato de fabricar."
+    },
+    {
+      "host": "A",
+      "text": "El argumento no está del todo equivocado. Existe una relación real entre el estatus de magnesio y la calidad del sueño. Más de 60 estudios lo documentan. Pero — la forma lo cambia todo. Y esa parte nunca llega a la etiqueta."
+    },
+    {
+      "host": "B",
+      "text": "La mayoría de los artículos agrupan todo el magnesio. Glicinato, L-treonato, citrato, óxido — tratados como intercambiables. No lo son. La forma determina cuánto llega realmente al torrente sanguíneo. Y eso determina si algo de esto funciona."
+    },
+    {
+      "host": "A",
+      "text": "Entonces construyamos esto desde la base. ¿Para quién es esto — y qué falla en la conversación que ya existe?"
+    },
+    {
+      "host": "B",
+      "text": "La conversación existente tiene dos problemas. Primero, trata al magnesio como un compuesto único. Segundo, extrapola desde datos epidemiológicos directamente hacia afirmaciones de intervención — sin reconocer que cuando los investigadores pasaron a ensayos reales, los tamaños de efecto se redujeron considerablemente."
+    },
+    {
+      "host": "A",
+      "text": "¿Cuánto se redujeron?"
+    },
+    {
+      "host": "B",
+      "text": "El NIH ODS estableció la cifra de deficiencia en 48%. Esa es la base. A partir de ahí, un estudio longitudinal de 2022 — Zhang et al., usando el dataset CARDIA, 3,964 adultos estadounidenses seguidos durante 35 años — encontró que el cuartil más alto de ingesta de magnesio tuvo 36% menos probabilidades de presentar sueño de duración corta. Razón de momios 0.64, intervalo de confianza de 0.51 a 0.81."
+    },
+    {
+      "host": "A",
+      "text": "Es un número que parece sólido. Excepto — CARDIA es observacional. ¿Qué sucede cuando se corre la intervención?"
+    },
+    {
+      "host": "B",
+      "text": "El número que buscan es 17. Mah y Pitre, 2021, BMC Complementary Medicine and Therapies — una revisión sistemática y metaanálisis de 3 ECAs, 151 adultos mayores en total. La latencia de inicio del sueño se redujo 17 minutos con suplementación de magnesio comparada con placebo. El intervalo de confianza del 95% iba de negativo 27 a negativo 7. Estadísticamente significativo."
+    },
+    {
+      "host": "A",
+      "text": "17 minutos. Ese es el número de intervención. No 36%. 17 minutos menos para quedarse dormido."
+    },
+    {
+      "host": "B",
+      "text": "Y el tiempo total de sueño mejoró 16 minutos — lo que resultó estadísticamente no significativo. Mah y Pitre calificaron la calidad de la evidencia como baja a muy baja. Los tres ensayos presentaron riesgo moderado a alto de sesgo. Su conclusión fue que la literatura era demasiado débil para recomendaciones clínicas, pero que la seguridad y el bajo costo hacen que la suplementación sea razonable de considerar."
+    },
+    {
+      "host": "A",
+      "text": "Entonces el encuadre honesto es: efecto pequeño, señal real, base de evidencia débil. Y encima de eso se asienta la pregunta sobre la forma."
+    },
+    {
+      "host": "B",
+      "text": "Así es. Y la pregunta sobre la forma comienza con la biodisponibilidad. Walker et al., 2003, en Magnesium Research, corrieron un ensayo cruzado aleatorizado doble ciego y encontraron — citando directamente — 'Mg citrate found more bioavailable than other Mg preparations in a randomised, double-blind study.' Usando el magnesio urinario como medida sustituta."
+    },
+    {
+      "host": "A",
+      "text": "Entonces el citrato supera al óxido en absorción humana real. ¿Cuál es la magnitud de la diferencia para el óxido específicamente?"
+    },
+    {
+      "host": "B",
+      "text": "El óxido se estima en aproximadamente 4% absorbido en algunas mediciones. Es el más barato de fabricar y da el número más alto de magnesio elemental en la etiqueta — por eso domina el estante de suplementos. A dosis altas, la mayor parte pasa por el colon sin absorberse. El efecto osmótico es lo que causa el malestar gastrointestinal que las personas reportan."
+    },
+    {
+      "host": "A",
+      "text": "Y el ensayo de sueño más citado usó óxido."
+    },
+    {
+      "host": "B",
+      "text": "Abbasi et al., 2012, Journal of Research in Medical Sciences. 46 sujetos de edad avanzada, 500 miligramos de magnesio elemental diarios como óxido, 8 semanas. Los resultados fueron positivos — la eficiencia del sueño pasó de 0.63 a 0.73, una mejora relativa del 16%. La melatonina sérica aumentó, p igual a 0.007. El cortisol cayó, p igual a 0.008. Sus palabras: 'statistically significant increases in sleep time, sleep efficiency, and serum melatonin, and decreases in ISI score and serum cortisol.'"
+    },
+    {
+      "host": "A",
+      "text": "Son efectos reales. En una forma de baja biodisponibilidad. Lo que plantea la pregunta — ¿qué sucede con el glicinato, que sí se absorbe?"
+    },
+    {
+      "host": "B",
+      "text": "El glicinato combina el magnesio con la glicina — un aminoácido inhibitorio que interactúa con los receptores de glicina y NMDA en el sistema nervioso central. El magnesio en sí potencia la actividad del receptor GABA-A, reduciendo la excitabilidad neuronal. La vía hacia el sueño es teóricamente coherente. Y ahora existe un ensayo."
+    },
+    {
+      "host": "A",
+      "text": "El ensayo de 2025."
+    },
+    {
+      "host": "B",
+      "text": "Schuster et al., 2025, Nature and Science of Sleep. 155 adultos con sueño deficiente. Aleatorizado, doble ciego, controlado con placebo. 250 miligramos de magnesio elemental como bisglicinato diarios durante 8 semanas. El grupo de bisglicinato de magnesio mostró, citando: 'a significantly greater reduction in ISI scores compared to the placebo group from baseline to Week 4, with an effect size of Cohen's d = 0.2.'"
+    },
+    {
+      "host": "A",
+      "text": "d de Cohen de 0.2. Es un tamaño de efecto pequeño por los parámetros convencionales."
+    },
+    {
+      "host": "B",
+      "text": "Pequeño, detectable y significativo en 4 semanas. Es el ECA de bisglicinato-sueño más grande hasta la fecha. La señal es real. La magnitud es modesta. Ambas cosas pueden ser ciertas al mismo tiempo."
+    },
+    {
+      "host": "A",
+      "text": "Ahora el L-treonato. Porque aquí es donde el marketing se vuelve más ruidoso y la evidencia más delgada."
+    },
+    {
+      "host": "B",
+      "text": "La historia del L-treonato comienza con un artículo de 2010 en Neuron — Slutsky et al. en la Universidad de Tel Aviv. El laboratorio de Inna Slutsky demostró que el magnesio-L-treonato elevó el magnesio cerebral en ratas, aumentó la densidad sináptica del hipocampo y mejoró la memoria de trabajo, la memoria espacial y la memoria a largo plazo en animales jóvenes y envejecidos. La cita: 'Increasing brain magnesium using a newly developed compound, magnesium-L-threonate, leads to enhancement of learning abilities, working memory, and short- and long-term memory in rats.'"
+    },
+    {
+      "host": "A",
+      "text": "Ratas."
+    },
+    {
+      "host": "B",
+      "text": "Ratas. El artículo son datos en roedores. El marketing alrededor de él son afirmaciones sobre humanos. Y hay un conflicto estructural que vale la pena señalar: el laboratorio Slutsky tiene una patente sobre el compuesto. Magtein es fabricado por Threotech LLC."
+    },
+    {
+      "host": "A",
+      "text": "Entonces, ¿qué muestran realmente los ensayos en humanos?"
+    },
+    {
+      "host": "B",
+      "text": "Hay dos. Primero: Rountree et al., 2024, Sleep Medicine: X. 80 adultos, 1 gramo de MgT diario — que entrega 75 miligramos de magnesio elemental — durante 21 días. Las puntuaciones ISI bajaron de 12.46 a 7.86 en el grupo MgT versus de 12.57 a 9.39 en el placebo, p igual a 0.0001. La puntuación de sueño profundo mostró mejoría significativa, p menor a 0.001."
+    },
+    {
+      "host": "A",
+      "text": "Son números fuertes. ¿Cuál es el problema?"
+    },
+    {
+      "host": "B",
+      "text": "Financiado por AIDP Inc. Autores afiliados a AIDP. Magtein suministrado por Threotech — el titular de la patente. El segundo ensayo es más interesante precisamente porque no está financiado por la industria."
+    },
+    {
+      "host": "A",
+      "text": "Arab et al., 2025, Frontiers in Nutrition."
+    },
+    {
+      "host": "B",
+      "text": "Correcto. Un ECA independiente sobre Magtein, calidad del sueño y desempeño cognitivo en adultos. Resultados más mixtos. Señales de sueño objetivo más débiles. Ese es el patrón esperado — los ensayos financiados por la industria tienden a mejores resultados que las replicaciones independientes."
+    },
+    {
+      "host": "A",
+      "text": "Entonces la afirmación del L-treonato — cruce superior de la barrera hematoencefálica, superando a otras formas para el sueño y la cognición — descansa en datos de ratas y dos ensayos en humanos, uno financiado por la industria."
+    },
+    {
+      "host": "B",
+      "text": "Eso no es fabricación. Es extrapolación prematura. Si el MgT oral eleva de manera significativa el magnesio cerebral en humanos sanos a las dosis que se venden comercialmente no ha sido establecido en ensayos independientes revisados por pares."
+    },
+    {
+      "host": "A",
+      "text": "Hablemos de dosis y momento de toma, porque ahí es donde las personas toman decisiones reales."
+    },
+    {
+      "host": "B",
+      "text": "Los ensayos van desde 75 miligramos elementales — la dosis de MgT — hasta 500 miligramos elementales como óxido en el ensayo de Abbasi. El metaanálisis de Mah y Pitre sugiere mantenerse por debajo de 1 gramo diario. No existe una curva dosis-respuesta clara establecida a través de las distintas formas."
+    },
+    {
+      "host": "A",
+      "text": "¿Y el momento? La recomendación de 45 minutos antes de dormir que aparece en todos lados."
+    },
+    {
+      "host": "B",
+      "text": "Fisiológicamente razonable. No establecido por ensayos. Ningún ECA ha comparado directamente la dosificación matutina versus nocturna para resultados de sueño. La recomendación de horario se extrapola del mecanismo, no de un estudio que lo midió."
+    },
+    {
+      "host": "A",
+      "text": "Hay una interacción farmacológica que creo que la mayoría de las personas pasa completamente por alto."
+    },
+    {
+      "host": "B",
+      "text": "Los inhibidores de la bomba de protones. Omeprazol, pantoprazol, esomeprazol. Gommers et al., 2022, Acta Physiologica, encontraron que 'active transport via TRPM6/7 channels is disrupted in PPI-induced hypomagnesemia — urinary magnesium was low in all studies.' Los usuarios crónicos de IBP pueden desarrollar hipomagnesemia incluso con una ingesta dietética adecuada."
+    },
+    {
+      "host": "A",
+      "text": "Entonces si toman un IBP a diario, la pregunta sobre la forma pasa a segundo plano. El medicamento está bloqueando activamente el transportador."
+    },
+    {
+      "host": "B",
+      "text": "Exactamente. El techo de absorción cambia por completo. Cambiar de óxido a glicinato no resuelve una interrupción del transportador."
+    },
+    {
+      "host": "A",
+      "text": "Y hay un hallazgo separado sobre la vía neuroendocrina — los datos de sueño de ondas lentas."
+    },
+    {
+      "host": "B",
+      "text": "Held et al., 2002, Pharmacopsychiatry. 12 sujetos de edad avanzada, suplementación oral de magnesio, y el hallazgo fue: 'Oral magnesium supplementation reverses age-related neuroendocrine and sleep EEG changes in humans.' Específicamente, aumento del sueño de ondas lentas y supresión del cortisol. Esa es una vía separada de la modulación directa de GABA — el eje HPA, la regulación del cortisol."
+    },
+    {
+      "host": "A",
+      "text": "Dos mecanismos, potencialmente operando en paralelo. Lo que hace más difícil aislar el componente activo."
+    },
+    {
+      "host": "B",
+      "text": "Es precisamente lo que la literatura no puede desenredar aún. La revisión sistemática de 2022 — Cheungpasitporn et al., Biological Trace Element Research — examinó 5 ECAs. Dos no encontraron efectos significativos. Ambos estaban en poblaciones sin deficiencia establecida."
+    },
+    {
+      "host": "A",
+      "text": "Lo que lleva a las condiciones en las que el magnesio no ayuda."
+    },
+    {
+      "host": "B",
+      "text": "Tres. Estatus de magnesio ya repuesto — la señal de intervención se concentra en poblaciones con magnesio sérico por debajo de lo normal. Insomnio primario en poblaciones con magnesio normal — los datos de Cheungpasitporn. Y óxido en dosis altas — a dosis únicas elevadas, la diarrea osmótica llega antes de que lo haga el magnesio sérico."
+    },
+    {
+      "host": "A",
+      "text": "Y la comparación con la terapia conductual debe plantearse sin rodeos."
+    },
+    {
+      "host": "B",
+      "text": "La terapia cognitivo-conductual para el insomnio — TCC-I — produce una g de Hedges de 0.87 a 1.1 en la latencia de inicio del sueño. El mejor ECA de magnesio produce una d de Cohen de 0.2 a 0.47 en el mismo resultado. No son categorías comparables. El magnesio no es un sustituto de la intervención sobre la arquitectura del sueño."
+    },
+    {
+      "host": "A",
+      "text": "Entonces — qué podemos decir. Qué no podemos decir."
+    },
+    {
+      "host": "B",
+      "text": "Podemos decir: el 48% de los adultos estadounidenses cae por debajo del EAR de magnesio solo con la dieta. En poblaciones con estatus bajo de magnesio, la suplementación produce mejoras modestas y estadísticamente significativas — latencia de inicio del sueño reducida aproximadamente 17 minutos según el metaanálisis de Mah y Pitre, eficiencia del sueño 16% mayor en términos relativos en el ensayo de Abbasi. La biodisponibilidad difiere según la forma. El glicinato y el citrato se absorben mediante transportadores dedicados. El óxido, en su mayor parte, no. El ECA de bisglicinato de 2025, 155 sujetos, produjo una d de Cohen de 0.2 — pequeña, real, replicada una vez."
+    },
+    {
+      "host": "A",
+      "text": "Y lo que no podemos decir."
+    },
+    {
+      "host": "B",
+      "text": "No podemos decir que el magnesio trate el insomnio al nivel de la TCC-I. No podemos decir que el L-treonato supere al glicinato para el sueño — no existe ningún ensayo cara a cara. No podemos decir que la mejora de 17 minutos se replicará en alguien que ya cumple con su IDR. No podemos decir si estos efectos son impulsados por el magnesio en sí, la forma específica, el cofactor de glicina, o la corrección de un déficit de micronutrientes — o alguna combinación de todo ello."
+    },
+    {
+      "host": "A",
+      "text": "El caso práctico, entonces — para alguien con una dieta estadounidense típica que duerme mal."
+    },
+    {
+      "host": "B",
+      "text": "De 200 a 400 miligramos de magnesio elemental como glicinato o citrato en la hora antes de dormir. No porque el efecto sea grande, sino porque es real donde la deficiencia y la alteración del sueño se superponen, y el costo es prácticamente nulo. El óxido que probablemente compraron es el punto de partida equivocado. La historia del L-treonato va adelante de su evidencia independiente."
+    },
+    {
+      "host": "A",
+      "text": "Más de 60 estudios y la pregunta central sigue abierta. Si el efecto es el mineral, la forma, el cofactor, o simplemente llenar un vacío que la dieta moderna creó."
+    },
+    {
+      "host": "B",
+      "text": "¿Qué debería cambiar esa pregunta abierta en cómo leen la etiqueta del suplemento con la luna?"
+    },
+    {
+      "host": "A",
+      "text": "Si la ansiedad y la alteración del sueño se superponen en su caso, la evidencia sobre intervenciones naturales va más profundo. Comiencen con la transmisión sobre ansiedad y remedios naturales."
+    }
+  ]
+}

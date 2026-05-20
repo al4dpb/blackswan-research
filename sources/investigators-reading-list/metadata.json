@@ -1,0 +1,30 @@
+{
+  "slug": "investigators-reading-list",
+  "titleEn": "The Investigator's Reading List",
+  "titleEs": "La lista del investigador",
+  "taglineEn": "14 consciousness studies your science teacher won't mention.",
+  "taglineEs": "14 estudios sobre consciencia que tu profesor no menciona.",
+  "descriptionEn": "A field-report-style annotated reading list. Primary sources, plain language, no overclaims. Free PDF from Black Swan Project.",
+  "descriptionEs": "Una lista de lectura anotada en formato de reporte de campo. Fuentes primarias, lenguaje claro, sin exageraciones. PDF gratuito de Black Swan Project.",
+  "kitTagSource": "lead-magnet-investigators-reading-list",
+  "leadMagnetId": "investigators-reading-list-v1",
+  "version": "1.0",
+  "publishedAt": "2026-05-13",
+  "authorName": "Alejandro Del Palacio",
+  "estimatedReadMinutes": 18,
+  "pages": 8,
+  "teasersEn": [
+    "Princeton ran 1.7 million attention experiments for 28 years.",
+    "Dutch researchers injected 24 healthy people with a bacterial toxin.",
+    "The CIA ran a 23-year remote-viewing program. They closed it three months before publishing the audit.",
+    "A University of Virginia psychiatrist documented 2,500 children who reported memories of previous lives.",
+    "A Mexican neuropsychologist documented the same brain pattern in two separated people, after only one was stimulated."
+  ],
+  "teasersEs": [
+    "Princeton corrió 1.7 millones de experimentos de atención durante 28 años.",
+    "Investigadores holandeses inyectaron una toxina bacteriana a 24 personas sanas.",
+    "La CIA corrió un programa de visión remota durante 23 años. Lo cerraron tres meses antes de publicar la auditoría.",
+    "Un psiquiatra de la Universidad de Virginia documentó 2,500 niños que reportaban recuerdos de vidas anteriores.",
+    "Un neuropsicólogo mexicano documentó el mismo patrón cerebral en dos personas separadas, después de estimular solo a una."
+  ]
+}

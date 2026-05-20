@@ -1,0 +1,70 @@
+{
+  "title": "ADHD Natural Treatments With Peer-Reviewed Evidence",
+  "title_es": "Tratamientos naturales para el TDAH con evidencia revisada por pares",
+  "description": "Stimulant alternatives for ADHD are everywhere — saffron, omega-3, mindfulness, exercise, neurofeedback. Most are oversold. Some have surprisingly strong RCTs. We rank the 14 most-cited interventions by replication strength, effect size, and how they compare to methylphenidate head-to-head.",
+  "description_es": "Las alternativas a los estimulantes para el TDAH están en todos lados — azafrán, omega-3, mindfulness, ejercicio, neurofeedback. La mayoría están sobrevendidas. Algunas tienen ensayos clínicos sorprendentemente sólidos. Clasificamos las 14 intervenciones más citadas por fuerza de replicación, tamaño del efecto y comparación con metilfenidato cara a cara.",
+  "pillar": "mental-work",
+  "slug": "adhd-natural-treatment",
+  "canonical": "https://blackswanp.com/research/mental-work/adhd-natural-treatment",
+  "published": "2026-04-13",
+  "modified": "2026-05-05",
+  "author": "Alejandro del Palacio",
+  "keywords": [
+    "adhd natural treatment",
+    "adhd alternative to medication",
+    "saffron adhd study",
+    "omega 3 adhd evidence",
+    "neurofeedback adhd RCT",
+    "exercise adhd treatment",
+    "mindfulness adhd evidence"
+  ],
+  "targetQuery": "adhd natural treatment",
+  "monthlySearchVolumeEstimate": 800000,
+  "aiOverviewPotential": "very high",
+  "image": "/og/adhd-natural-treatment.png",
+  "imageAlt": "Vintage 1980s pediatric research clinic shelf — saffron threads in a glass Petri dish beside a vial of methylphenidate, both lit by a single amber lamp on a dark cobalt background",
+  "imagePrompt": "Retrofuturist 1980s cinematic still photograph. Dim pediatric neurology research clinic dominates 70 percent of the frame in deep cobalt-black with heavy 35mm grain. Center frame: a polished steel laboratory shelf at chest height. On the shelf, arranged in clinical sequence from left to right: a clear glass Petri dish containing crimson-red saffron threads (Crocus sativus stigmas) in saturated electric scarlet glow, an amber prescription vial containing white methylphenidate tablets with a hand-typed prescription label, a small tin of dried omega-3 fish-oil capsules in golden translucent sheen, an EEG electrode cap on a foam mannequin head with multicolored leads in electric blue, and a small printed card listing INCA elimination diet foods (lamb, rice, pear, water). Behind the shelf, a freestanding chalkboard mounted on wheels carries a hand-drawn ranking diagram — fourteen numbered intervention boxes connected by arrows, with sample sizes and effect sizes (Cohen's d values) annotated in chalk. A single overhead surgical lamp casts an amber pool of light onto the shelf; the rest of the room recedes into deep cobalt-black shadow. Faint blue LED indicators glow on a vintage analog rating-scale machine in the foreground. The shelf items + amber lamp + electric blue chalk markers are the ONLY chromatic zones — vibrantly breaking out of the cobalt matrix. Heavy cinematic 35mm film grain, anamorphic lens flare, kodak ektachrome retro slide aesthetic. Mood: Tarkovsky Stalker + Soderbergh Solaris 2002 + early Cronenberg + Charles Bradley's 1937 Emma Pendleton Bradley Home pediatric ward. The dark room is the matrix; the ranked clinical sequence on the shelf is what actually moves the needle. No recognizable face. Mysterious pediatric-neurology forensic. Photographic NOT painterly NOT illustrated.",
+  "imageSeed": 4488,
+  "imageAspectRatio": "3:2",
+  "researchSources": [
+    "Baziar et al. 2019 — saffron vs methylphenidate ADHD RCT",
+    "Bloch & Qawasmi 2011 — omega-3 ADHD meta-analysis",
+    "Cortese et al. 2015 — neurofeedback ADHD meta-analysis",
+    "Hoogman et al. 2017 — ENIGMA ADHD brain MRI",
+    "Mitchell et al. 2017 — mindfulness ADHD review",
+    "Pelsser et al. 2011 — restricted elimination diet INCA trial"
+  ],
+  "syndications": [
+    {
+      "publication": "Substack · VENUS (EN)",
+      "url": "https://a3dpb.substack.com/p/adhd-natural-treatments-with-peer",
+      "date": "2026-05-08"
+    },
+    {
+      "publication": "Substack · VENUS (ES)",
+      "url": "https://a3dpb.substack.com/p/tratamientos-naturales-para-el-tdah",
+      "date": "2026-05-08"
+    }
+  ],
+  "wordCount": 2604,
+  "citationsCount": 12,
+  "primarySources": 12,
+  "foiaCount": 0,
+  "evidenceDensity": 0.46,
+  "seoTitle": "ADHD Natural Treatment: 14 Interventions Ranked by RCT Evidence (2026)",
+  "seoTitle_es": "Tratamiento natural del TDAH: 14 intervenciones clasificadas por evidencia RCT (2026)",
+  "seoDescription": "Of 14 most-cited natural ADHD interventions, only 4 have head-to-head RCT evidence. Saffron matched methylphenidate (Baziar 2019). What works, what doesn't, dose, timing.",
+  "seoDescription_es": "De 14 intervenciones naturales más citadas para el TDAH, solo 4 tienen evidencia RCT directa. El azafrán igualó al metilfenidato (Baziar 2019). Qué funciona, qué no, dosis, momento.",
+  "audio": "/audio/adhd-natural-treatment.mp3",
+  "audioDuration": 820,
+  "audioGeneratedAt": "2026-05-06T00:48:06.500Z",
+  "audioVoices": {
+    "investigator": "nPczCjzI2devNBz1zQrb",
+    "analyst": "EXAVITQu4vr4xnSDxMaL"
+  },
+  "audioEs": "/audio/adhd-natural-treatment.es.mp3",
+  "audioEsDuration": 820,
+  "audioEsGeneratedAt": "2026-05-06T11:37:13.842Z",
+  "bluf": "Only 3 natural ADHD interventions have RCT effect sizes comparable to stimulants: saffron (multiple Iranian RCTs, d≈0.7), high-EPA omega-3 (Cooper meta-analysis 2015, d=0.38), and aerobic exercise (Cerrillo-Urbina meta-analysis 2015, d=0.84). Everything else — neurofeedback, mindfulness, elimination diets — has weaker or contradictory evidence. The reality is messier than wellness lists admit.",
+  "bluf_es": "Solo 3 intervenciones naturales para TDAH tienen tamaños de efecto en RCTs comparables a los estimulantes: azafrán (múltiples RCTs iraníes, d≈0.7), omega-3 alto en EPA (meta-análisis Cooper 2015, d=0.38) y ejercicio aeróbico (meta-análisis Cerrillo-Urbina 2015, d=0.84). Todo lo demás — neurofeedback, mindfulness, dietas de eliminación — tiene evidencia más débil o contradictoria. La realidad es más complicada de lo que admiten las listas de wellness."
+}
