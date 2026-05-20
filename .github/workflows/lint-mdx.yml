@@ -1,0 +1,40 @@
+name: Lint MDX
+
+on:
+  pull_request:
+    paths:
+      - "articles/**/*.mdx"
+      - "best/**/*.mdx"
+      - "compare/**/*.mdx"
+      - "lineages/**/*.mdx"
+      - "**/meta.json"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate MDX frontmatter
+        run: |
+          set -e
+          fail=0
+          while IFS= read -r f; do
+            if ! head -1 "$f" | grep -q '^---$'; then
+              echo "::error file=$f::missing frontmatter opening ---"
+              fail=1
+            fi
+          done < <(find articles best compare lineages -name "*.mdx" 2>/dev/null)
+          exit $fail
+
+      - name: Validate meta.json files
+        run: |
+          set -e
+          fail=0
+          while IFS= read -r f; do
+            if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f"; then
+              echo "::error file=$f::invalid JSON"
+              fail=1
+            fi
+          done < <(find articles best compare lineages pillars -name "meta.json" -o -name "*.json" 2>/dev/null)
+          exit $fail
